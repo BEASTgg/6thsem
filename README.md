@@ -2,6 +2,8 @@
 WELCOME BACK AGAIN !
 </p>
 
+For [syllabus](https://github.com/BEASTgg/5thsem/tree/main/Syllebus) click 💁‍♂️
+
 # Disclaimer :warning: :
 
 The handler(s) of this repository will not be responsible for any wrong assignments and/or any other discrepencies caused on your end.

@@ -2,7 +2,7 @@
 WELCOME BACK AGAIN !
 </p>
 
-# For [syllabus](https://github.com/BEASTgg/6thsem/blob/main/Syllabus/UEMK%206th%20Sem%20CSE%20syllabus%202021-2025%20batch.pdf) click 💁‍♂️
+# For [syllabus](https://drive.google.com/drive/u/2/folders/1BSuJx8PSX3T09VjJJvFG5M8PXOJyBuW-) click 💁‍♂️
 
 # Disclaimer :warning: :
 

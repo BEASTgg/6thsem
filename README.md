@@ -22,5 +22,9 @@ WHY NOT STAR ⭐ THIS REPO IF YOU FIND IT HELPFUL !
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+## For Google Drive : [Click Here](https://drive.google.com/drive/folders/1mUm7of83a41k5uJQLcgt91DZne-b479P?usp=sharing)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 <img align="right" alt="SAY NO TO GPT" width="1600" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT78zaHjm3pAOmdUl6LhVzCO41IjVtwzdsFaw&usqp=CAU">
 

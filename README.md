@@ -3,6 +3,7 @@ WELCOME BACK AGAIN !
 </p>
 
 # For CSE CORE Syllabus : [Click Here](https://drive.google.com/file/d/1_uaK9x6Bot0PCpm_x-S-0dHAQKwT_Wce/view?usp=drive_link)
+# For CSE IOT Syllabus : [Click Here]()
 
 # Disclaimer :warning: :
 

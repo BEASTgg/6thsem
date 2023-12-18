@@ -2,7 +2,7 @@
 WELCOME BACK AGAIN !
 </p>
 
-# For [syllabus](https://drive.google.com/drive/u/2/folders/1BSuJx8PSX3T09VjJJvFG5M8PXOJyBuW-) click 💁‍♂️
+# For [syllabus](https://drive.google.com/file/d/1_uaK9x6Bot0PCpm_x-S-0dHAQKwT_Wce/view?usp=drive_link) click 💁‍♂️
 
 # Disclaimer :warning: :
 

@@ -2,7 +2,7 @@
 WELCOME BACK AGAIN !
 </p>
 
-# For [syllabus](https://drive.google.com/file/d/1_uaK9x6Bot0PCpm_x-S-0dHAQKwT_Wce/view?usp=drive_link) click 💁‍♂️
+# For CSE CORE [SYLLABUS](https://drive.google.com/file/d/1_uaK9x6Bot0PCpm_x-S-0dHAQKwT_Wce/view?usp=drive_link) click 💁‍♂️
 
 # Disclaimer :warning: :
 

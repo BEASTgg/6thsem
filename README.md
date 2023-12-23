@@ -6,7 +6,7 @@ WELCOME BACK AGAIN !
 ## For CSE IOT Syllabus : [Click Here]()
 ## For CSE AIML Syllabus : [Click Here]()
 
-## Disclaimer :warning: :
+# Disclaimer :warning: :
 
 The handler(s) of this repository will not be responsible for any wrong assignments and/or any other discrepencies caused on your end.
 
@@ -26,7 +26,7 @@ WHY NOT STAR ⭐ THIS REPO IF YOU FIND IT HELPFUL !
 
 ## Notes 📜 -
 
-# CSE CORE -
+### CSE CORE :
 
 | No. | Subject |
 | --- | --- |

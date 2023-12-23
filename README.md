@@ -53,5 +53,5 @@ FOR CSE (IOT) AND CSE (AIML) THIS NOTES SECTION WILL BE UPDATED ONCE WE RECEIVE 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<img align="right" alt="SAY NO TO GPT" width="1600" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT78zaHjm3pAOmdUl6LhVzCO41IjVtwzdsFaw&usqp=CAU">
+<!-- <img align="right" alt="SAY NO TO GPT" width="1600" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT78zaHjm3pAOmdUl6LhVzCO41IjVtwzdsFaw&usqp=CAU"> -->
 

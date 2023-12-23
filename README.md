@@ -38,6 +38,8 @@ CSE CORE -
 | 6 | [Data Analytics](https://drive.google.com/drive/folders/1Po_PqPCiI5IEoXNUIPiVsvyhGBlrUSYg?usp=sharing) |
 | 7 | [SDP - VI](https://drive.google.com/drive/folders/1Rmb6Qlp9I3Z5M30_uDJnt3s6XD9UGoF2?usp=sharing) |
 
+FOR CSE (IOT) AND CSE (AIML) THIS NOTES SECTION WILL BE UPDATED ONCE WE RECEIVE THE SYLLABUS.
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## For Youtube Videos : [Click Here](https://drive.google.com/file/d/1rlhgigA6dR4UaMJLO5TFmMNoWFfUYPmS/view?usp=sharing)

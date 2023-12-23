@@ -42,6 +42,10 @@ FOR CSE (IOT) AND CSE (AIML) THIS NOTES SECTION WILL BE UPDATED ONCE WE RECEIVE 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Question Papers : [Click Here]{https://drive.google.com/drive/folders/1JAOuZ0my-8RPNgta7oLBeFwZnHZhadVJ?usp=sharing}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## For Youtube Videos : [Click Here](https://drive.google.com/file/d/1rlhgigA6dR4UaMJLO5TFmMNoWFfUYPmS/view?usp=sharing)
 
 ## For Google Drive : [Click Here](https://drive.google.com/drive/folders/1mUm7of83a41k5uJQLcgt91DZne-b479P?usp=sharing)

@@ -2,11 +2,11 @@
 WELCOME BACK AGAIN !
 </p>
 
-# For CSE CORE Syllabus : [Click Here](https://drive.google.com/file/d/1_uaK9x6Bot0PCpm_x-S-0dHAQKwT_Wce/view?usp=drive_link)
-# For CSE IOT Syllabus : [Click Here]()
-# For CSE AIML Syllabus : [Click Here]()
+## For CSE CORE Syllabus : [Click Here](https://drive.google.com/file/d/1_uaK9x6Bot0PCpm_x-S-0dHAQKwT_Wce/view?usp=drive_link)
+## For CSE IOT Syllabus : [Click Here]()
+## For CSE AIML Syllabus : [Click Here]()
 
-# Disclaimer :warning: :
+## Disclaimer :warning: :
 
 The handler(s) of this repository will not be responsible for any wrong assignments and/or any other discrepencies caused on your end.
 
@@ -26,7 +26,7 @@ WHY NOT STAR ⭐ THIS REPO IF YOU FIND IT HELPFUL !
 
 ## Notes 📜 -
 
-CSE CORE -
+# CSE CORE -
 
 | No. | Subject |
 | --- | --- |

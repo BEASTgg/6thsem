@@ -38,7 +38,19 @@ WHY NOT STAR ⭐ THIS REPO IF YOU FIND IT HELPFUL !
 | 6 | [Data Analytics](https://drive.google.com/drive/folders/1Po_PqPCiI5IEoXNUIPiVsvyhGBlrUSYg?usp=sharing) |
 | 7 | [SDP - VI](https://drive.google.com/drive/folders/1Rmb6Qlp9I3Z5M30_uDJnt3s6XD9UGoF2?usp=sharing) |
 
-Once the syllabus for CSE (IoT) and CSE (AIML) is received, this notes section will be updated accordingly.
+### CSE IOT :
+
+| No. | Subject |
+| --- | --- |
+| 1 | [Compiler Design](https://drive.google.com/drive/folders/15SbWcmwVpfJSBcgK8mNy6Gz8q4OAuPB1?usp=sharing) |
+| 2 | [Computer Networks](https://drive.google.com/drive/folders/175TuLjY4_huU5ViOiLh32UV2zVYQfWqe?usp=sharing) |
+| 3 | [ESP - VI](https://drive.google.com/drive/folders/1rXs-b3rzsNQPsU6-EvnKvNfHzW8stTcM?usp=sharing) |
+| 4 | [Finance And Accounting](https://drive.google.com/drive/folders/1-GaeFwNvZHTbKVGO2wC3zJtKDUo2qLq2?usp=sharing) |
+| 5 | [Embedded Systems](https://drive.google.com/drive/folders/1YV5xiJcpBGBs5OeUtn1ZCv7VWWav9Brc?usp=sharing) |
+| 6 | [Blockchain Technology](https://drive.google.com/drive/folders/1N6q-XfLqP2rbRkTvX-tBoEtZPxkyT_0Q?usp=sharing) |
+| 7 | [SDP - VI](https://drive.google.com/drive/folders/1tBElPEKORr6qjOO8Xf_J8V4bRZbVBfrQ?usp=sharing) |
+
+Once the syllabus for CSE (AIML) is received, this notes section will be updated accordingly.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

@@ -26,7 +26,7 @@ WHY NOT STAR ⭐ THIS REPO IF YOU FIND IT HELPFUL !
 
 ## Notes 📜 -
 
-### CSE CORE :
+### CSE CORE & CSE AIML :
 
 | No. | Subject |
 | --- | --- |
@@ -49,8 +49,6 @@ WHY NOT STAR ⭐ THIS REPO IF YOU FIND IT HELPFUL !
 | 5 | [Embedded Systems](https://drive.google.com/drive/folders/1YV5xiJcpBGBs5OeUtn1ZCv7VWWav9Brc?usp=sharing) |
 | 6 | [Blockchain Technology](https://drive.google.com/drive/folders/1N6q-XfLqP2rbRkTvX-tBoEtZPxkyT_0Q?usp=sharing) |
 | 7 | [SDP - VI](https://drive.google.com/drive/folders/1tBElPEKORr6qjOO8Xf_J8V4bRZbVBfrQ?usp=sharing) |
-
-Once the syllabus for CSE (AIML) is received, this notes section will be updated accordingly.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

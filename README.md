@@ -4,7 +4,7 @@ WELCOME BACK AGAIN !
 
 ## For CSE CORE Syllabus : [Click Here](https://drive.google.com/file/d/1TJuCKXUKw_iQDzJiN_kJm9904Wh2tLmT/view?usp=sharing)
 ## For CSE IOT Syllabus : [Click Here](https://drive.google.com/file/d/1t3p1AXfcaK7lLmiY8Cs7lQ14NKkH8v2C/view?usp=sharing)
-## For CSE AIML Syllabus : [Click Here](https://drive.google.com/file/d/1sBKPaO6oiCo3ql9xRwPkTEmsAXN3U14_/view?usp=sharing)
+## For CSE AIML Syllabus : [Click Here](https://drive.google.com/file/d/1TJuCKXUKw_iQDzJiN_kJm9904Wh2tLmT/view?usp=sharing)
 
 # Disclaimer :warning: :
 

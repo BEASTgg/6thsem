@@ -1,0 +1,273 @@
+Hacker Rank - 
+
+1) Plus Minus
+
+import java.util.Scanner;
+
+public class UserInputElementRatios {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int n = scanner.nextInt();
+
+        int[] arr = new int[n];
+
+
+        for (int i = 0; i < n; i++) {
+            arr[i] = scanner.nextInt();
+        }
+
+        calculateRatios(arr);
+        scanner.close();
+    }
+
+    static void calculateRatios(int[] arr) {
+        int positiveCount = 0;
+        int negativeCount = 0;
+        int zeroCount = 0;
+
+        for (int element : arr) {
+            if (element > 0) {
+                positiveCount++;
+            } else if (element < 0) {
+                negativeCount++;
+            } else {
+                zeroCount++;
+            }
+        }
+
+        int n = arr.length;
+
+        // Calculate ratios and print with 6 decimal places
+        System.out.printf("%.6f%n", (double) positiveCount / n);
+        System.out.printf("%.6f%n", (double) negativeCount / n);
+        System.out.printf("%.6f%n", (double) zeroCount / n);
+    }
+}
+
+
+2) MaxMin - 
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class UserInputMinMaxSum {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int[] arr = new int[5];
+
+
+        for (int i = 0; i < 5; i++) {
+            arr[i] = scanner.nextInt();
+
+            while (arr[i] <= 0) {
+                arr[i] = scanner.nextInt();
+            }
+        }
+
+        findMinMaxSum(arr);
+        scanner.close();
+    }
+
+    static void findMinMaxSum(int[] arr) {
+        Arrays.sort(arr);
+
+        long minSum = 0;
+        long maxSum = 0;
+
+        for (int i = 0; i < arr.length - 1; i++) {
+            minSum += arr[i];
+        }
+
+        for (int i = 1; i < arr.length; i++) {
+            maxSum += arr[i];
+        }
+
+        System.out.println(minSum+ " " +maxSum);
+    }
+}
+
+3) Time Conversion
+
+
+import java.util.Scanner;
+
+public class TimeConversion {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        String time12Hour = scanner.nextLine();
+
+        String militaryTime = convertToMilitaryTime(time12Hour);
+        System.out.println(militaryTime);
+
+        scanner.close();
+    }
+
+    static String convertToMilitaryTime(String time12Hour) {
+        String[] parts = time12Hour.split(":");
+        int hours = Integer.parseInt(parts[0]);
+        int minutes = Integer.parseInt(parts[1]);
+        int seconds = Integer.parseInt(parts[2].substring(0, 2));
+        String amPm = parts[2].substring(2);
+
+        if (amPm.equalsIgnoreCase("PM") && hours != 12) {
+            hours += 12;
+        } else if (amPm.equalsIgnoreCase("AM") && hours == 12) {
+            hours = 0;
+        }
+
+        return String.format("%02d:%02d:%02d", hours, minutes, seconds);
+    }
+}
+
+4) Breaking the Records
+
+import java.util.Scanner;
+
+public class BasketballRecord {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int n = scanner.nextInt();
+
+        int[] scores = new int[n];
+
+
+        for (int i = 0; i < n; i++) {
+            scores[i] = scanner.nextInt();
+        }
+
+        calculateRecordBreaks(scores);
+        scanner.close();
+    }
+
+    static void calculateRecordBreaks(int[] scores) {
+        int minScore = scores[0];
+        int maxScore = scores[0];
+        int minBreaks = 0;
+        int maxBreaks = 0;
+
+        for (int i = 1; i < scores.length; i++) {
+            if (scores[i] < minScore) {
+                minScore = scores[i];
+                minBreaks++;
+            } else if (scores[i] > maxScore) {
+                maxScore = scores[i];
+                maxBreaks++;
+            }
+        }
+
+        System.out.println(maxBreaks+ " " +minBreaks);
+    }
+}
+
+5) Camel Case 4
+
+WILL BE UPDATED !
+
+6) Divisible Sum Pairs
+
+import java.util.Scanner;
+
+public class DivisiblePairs {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int n = scanner.nextInt();
+        int k = scanner.nextInt();
+
+        int[] ar = new int[n];
+        
+
+        for (int i = 0; i < n; i++) {
+            ar[i] = scanner.nextInt();
+        }
+
+        int result = countDivisiblePairs(ar, k);
+        System.out.println(result);
+
+        scanner.close();
+    }
+
+    static int countDivisiblePairs(int[] ar, int k) {
+        int count = 0;
+
+        for (int i = 0; i < ar.length - 1; i++) {
+            for (int j = i + 1; j < ar.length; j++) {
+                if ((ar[i] + ar[j]) % k == 0) {
+                    count++;
+                }
+            }
+        }
+
+        return count;
+    }
+}
+
+7) Sparse Arrays
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
+
+public class StringQueries {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        String newline = System.lineSeparator(); 
+
+        int n = scanner.nextInt();
+        scanner.nextLine();  // Consume the newline character
+
+        List<String> strings = new ArrayList<>();
+
+
+        for (int i = 0; i < n; i++) {
+            strings.add(scanner.nextLine());
+        }
+
+        int m = scanner.nextInt();
+        scanner.nextLine();  // Consume the newline character
+
+        List<String> queries = new ArrayList<>();
+
+
+        for (int i = 0; i < m; i++) {
+            queries.add(scanner.nextLine());
+        }
+
+        int[] results = countStringOccurrences(strings, queries);
+
+
+        for (int result : results) {
+            System.out.print(result + newline);
+        }
+
+        scanner.close();
+    }
+
+    static int[] countStringOccurrences(List<String> strings, List<String> queries) {
+        Map<String, Integer> occurrencesMap = new HashMap<>();
+
+        for (String str : strings) {
+            occurrencesMap.put(str, occurrencesMap.getOrDefault(str, 0) + 1);
+        }
+
+        int[] results = new int[queries.size()];
+
+        for (int i = 0; i < queries.size(); i++) {
+            results[i] = occurrencesMap.getOrDefault(queries.get(i), 0);
+        }
+
+        return results;
+    }
+}

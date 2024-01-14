@@ -1,0 +1,94 @@
+Week 2 -
+
+1) Lonely Integer
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+public class UniqueElementFinder {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int n = scanner.nextInt();
+
+        int[] arr = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            arr[i] = scanner.nextInt();
+        }
+
+        int uniqueElement = findUniqueElement(arr);
+        System.out.println(uniqueElement);
+
+        scanner.close();
+    }
+
+    static int findUniqueElement(int[] arr) {
+        Map<Integer, Integer> frequencyMap = new HashMap<>();
+
+        for (int num : arr) {
+            frequencyMap.put(num, frequencyMap.getOrDefault(num, 0) + 1);
+        }
+
+        for (Map.Entry<Integer, Integer> entry : frequencyMap.entrySet()) {
+            if (entry.getValue() == 1) {
+                return entry.getKey();
+            }
+        }
+
+        return -1;
+    }
+}
+
+2) Grading Students
+
+import java.util.Scanner;
+
+public class GradeRounding {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        int n = scanner.nextInt();
+
+        int[] grades = new int[n];
+
+
+        for (int i = 0; i < n; i++) {
+            grades[i] = scanner.nextInt();
+        }
+
+        int[] roundedGrades = roundGrades(grades);
+
+
+        for (int i = 0; i < n; i++) {
+            System.out.println(roundedGrades[i]);
+        }
+
+        scanner.close();
+    }
+
+    static int[] roundGrades(int[] grades) {
+        int[] roundedGrades = new int[grades.length];
+
+        for (int i = 0; i < grades.length; i++) {
+            if (grades[i] < 38) {
+                roundedGrades[i] = grades[i];
+            } else {
+                int nextMultipleOf5 = ((grades[i] + 4) / 5) * 5;
+                if (nextMultipleOf5 - grades[i] < 3) {
+                    roundedGrades[i] = nextMultipleOf5;
+                } else {
+                    roundedGrades[i] = grades[i];
+                }
+            }
+        }
+
+        return roundedGrades;
+    }
+}
+
+3) Flipping Bits
+

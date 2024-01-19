@@ -42,25 +42,25 @@ WHY NOT STAR ⭐ THIS REPO IF YOU FIND IT HELPFUL !
 
 | No. | Subject | Extras
 | --- | --- | --- |
-| 1 | [Compiler Design](https://drive.google.com/drive/folders/1y1ufh_KSMlNuyPPaRIdUlp8eSp1qDtzG?usp=sharing) | []() |
-| 2 | [Computer Networks](https://drive.google.com/drive/folders/1J09J7hREv0FNukVJXtG92dosxu3B9ZD6?usp=sharing) | []() |
-| 3 | [ESP - VI](https://drive.google.com/drive/folders/12FBjoauJ803-Nh8eOvNHQ1wUgepjBsUN?usp=sharing) | []() |
-| 4 | [Finance And Accounting](https://drive.google.com/drive/folders/1GTXdvZR0nLu1ht07IjQ3XqKBWHegyWlQ?usp=sharing) | []() |
+| 1 | [Compiler Design](https://drive.google.com/drive/folders/1y1ufh_KSMlNuyPPaRIdUlp8eSp1qDtzG?usp=sharing) | [+ Books]() |
+| 2 | [Computer Networks](https://drive.google.com/drive/folders/1J09J7hREv0FNukVJXtG92dosxu3B9ZD6?usp=sharing) | [+ Books]() |
+| 3 | [ESP - VI](https://drive.google.com/drive/folders/12FBjoauJ803-Nh8eOvNHQ1wUgepjBsUN?usp=sharing) | [+ Books]() |
+| 4 | [Finance And Accounting](https://drive.google.com/drive/folders/1GTXdvZR0nLu1ht07IjQ3XqKBWHegyWlQ?usp=sharing) | [+ Books]() |
 | 5 | [Soft Computing](https://drive.google.com/drive/folders/1lVNv_nmyWT6KNey7PNte-8746ey_ufC9?usp=sharing) | [+ Books](https://drive.google.com/drive/folders/1pgQEmmrwJWR3qysSG9ubf-Bs3tapE4KT?usp=sharing) |
-| 6 | [Data Analytics](https://drive.google.com/drive/folders/1pM_h2u7EqOeJlFK4lDwaXVWATRMS5rxx?usp=sharing) | []() |
-| 7 | [SDP - VI](https://drive.google.com/drive/folders/1ZMHkozxsfL1v2nTUQIPkNj2dGF3T4hrn?usp=sharing) | []() |
+| 6 | [Data Analytics](https://drive.google.com/drive/folders/1pM_h2u7EqOeJlFK4lDwaXVWATRMS5rxx?usp=sharing) | [+ Books]() |
+| 7 | [SDP - VI](https://drive.google.com/drive/folders/1ZMHkozxsfL1v2nTUQIPkNj2dGF3T4hrn?usp=sharing) | [+ Books]() |
 
 ### CSE IOT :
 
 | No. | Subject | Extras
 | --- | --- | --- |
-| 1 | [Compiler Design](https://drive.google.com/drive/folders/15SbWcmwVpfJSBcgK8mNy6Gz8q4OAuPB1?usp=sharing) | []() |
-| 2 | [Computer Networks](https://drive.google.com/drive/folders/175TuLjY4_huU5ViOiLh32UV2zVYQfWqe?usp=sharing) | []() |
-| 3 | [ESP - VI](https://drive.google.com/drive/folders/1rXs-b3rzsNQPsU6-EvnKvNfHzW8stTcM?usp=sharing) | []() |
-| 4 | [Finance And Accounting](https://drive.google.com/drive/folders/1-GaeFwNvZHTbKVGO2wC3zJtKDUo2qLq2?usp=sharing) | []() |
-| 5 | [Embedded Systems](https://drive.google.com/drive/folders/1YV5xiJcpBGBs5OeUtn1ZCv7VWWav9Brc?usp=sharing) | []() |
-| 6 | [Blockchain Technology](https://drive.google.com/drive/folders/1N6q-XfLqP2rbRkTvX-tBoEtZPxkyT_0Q?usp=sharing) | []() |
-| 7 | [SDP - VI](https://drive.google.com/drive/folders/1tBElPEKORr6qjOO8Xf_J8V4bRZbVBfrQ?usp=sharing) | []() |
+| 1 | [Compiler Design](https://drive.google.com/drive/folders/15SbWcmwVpfJSBcgK8mNy6Gz8q4OAuPB1?usp=sharing) | [+ Books]() |
+| 2 | [Computer Networks](https://drive.google.com/drive/folders/175TuLjY4_huU5ViOiLh32UV2zVYQfWqe?usp=sharing) | [+ Books]() |
+| 3 | [ESP - VI](https://drive.google.com/drive/folders/1rXs-b3rzsNQPsU6-EvnKvNfHzW8stTcM?usp=sharing) | [+ Books]() |
+| 4 | [Finance And Accounting](https://drive.google.com/drive/folders/1-GaeFwNvZHTbKVGO2wC3zJtKDUo2qLq2?usp=sharing) | [+ Books]() |
+| 5 | [Embedded Systems](https://drive.google.com/drive/folders/1YV5xiJcpBGBs5OeUtn1ZCv7VWWav9Brc?usp=sharing) | [+ Books]() |
+| 6 | [Blockchain Technology](https://drive.google.com/drive/folders/1N6q-XfLqP2rbRkTvX-tBoEtZPxkyT_0Q?usp=sharing) | [+ Books]() |
+| 7 | [SDP - VI](https://drive.google.com/drive/folders/1tBElPEKORr6qjOO8Xf_J8V4bRZbVBfrQ?usp=sharing) | [+ Books]() |
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

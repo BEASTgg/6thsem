@@ -92,3 +92,177 @@ public class GradeRounding {
 
 3) Flipping Bits
 
+import java.util.Scanner;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int T = scanner.nextInt();
+
+        long mask = (1L << 32) - 1;
+        
+        for (int t = 0; t < T; t++) {
+            long n = scanner.nextLong();
+            System.out.println(n ^ mask);            
+        }
+        
+        scanner.close();
+
+    }
+
+}
+
+4) Diagonal Difference
+
+import java.util.Scanner;
+
+public class DiagonalDifference {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int size = scanner.nextInt();
+        int[][] matrix = new int[size][size];
+        for (int i = 0; i < size; i++) {
+            for (int j = 0; j < size; j++) {
+                matrix[i][j] = scanner.nextInt();
+            }
+        }
+
+        int diagonalDifference = calculateDiagonalDifference(matrix);
+        System.out.println(diagonalDifference);
+        scanner.close();
+    }
+
+    public static int calculateDiagonalDifference(int[][] matrix) {
+        int leftToRightSum = 0;
+        int rightToLeftSum = 0;
+
+        for (int i = 0; i < matrix.length; i++) {
+            leftToRightSum += matrix[i][i];
+            rightToLeftSum += matrix[i][matrix.length - 1 - i];
+        }
+
+        return Math.abs(leftToRightSum - rightToLeftSum);
+    }
+}
+
+5) Counting Storts
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+	
+	static void printArray(int[] ar) {
+		for (int n : ar) {
+			System.out.print(n + " ");
+		}
+		System.out.println("");
+	}
+	
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		int n = in.nextInt();
+		int[] ar = new int[100];
+		for (int i = 0; i < n; i++) {
+			ar[in.nextInt()]++;
+		}
+		
+		printArray(ar);
+	}
+
+}
+
+6) Counting Valleys
+
+import java.util.Scanner;
+
+public class CountValleys {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int steps = scanner.nextInt();
+        String path = scanner.next();
+
+        // Calculate and print the number of valleys walked through
+        int valleys = countValleys(steps, path);
+        System.out.println(valleys);
+
+        scanner.close();
+    }
+    private static int countValleys(int steps, String path) {
+        int level = 0;
+        int valleys = 0;
+
+        for (char step : path.toCharArray()) {
+            if (step == 'U') {
+                level++;
+            } else if (step == 'D') {
+                level--;
+            }
+            if (step == 'U' && level == 0) {
+                valleys++;
+            }
+        }
+
+        return valleys;
+    }
+}
+
+7) Pangrams
+
+import java.util.HashSet;
+import java.util.Scanner;
+import java.util.Set;
+
+public class PangramChecker {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String sentence = scanner.nextLine();
+        boolean isPangram = checkPangram(sentence);
+        if (isPangram) {
+            System.out.println("pangram");
+        } else {
+            System.out.println("not pangram");
+        }
+
+        scanner.close();
+    }
+    private static boolean checkPangram(String sentence) {
+        Set<Character> alphabetSet = new HashSet<>();
+        for (char c : sentence.toLowerCase().toCharArray()) {
+            if (Character.isLetter(c)) {
+                alphabetSet.add(c);
+            }
+        }
+        return alphabetSet.size() == 26;
+    }
+}
+
+8) Mars Exploration
+
+import java.util.Scanner;
+
+public class MarsSOS {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String signal = scanner.next();
+        int alteredLetters = countAlteredLetters(signal);
+        System.out.println(alteredLetters);
+        scanner.close();
+    }
+    private static int countAlteredLetters(String signal) {
+        String sos = "SOS";
+        int alteredLetters = 0;
+
+        for (int i = 0; i < signal.length(); i++) {
+            if (signal.charAt(i) != sos.charAt(i % 3)) {
+                alteredLetters++;
+            }
+        }
+        return alteredLetters;
+    }
+}

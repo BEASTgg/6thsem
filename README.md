@@ -34,11 +34,11 @@ WHY NOT STAR ⭐ THIS REPO IF YOU FIND IT HELPFUL !
 | 1 | [Week 1](https://github.com/BEASTgg/6thsem/tree/main/CSE%20CORE/HACKER%20RANK%20ASSIGNMENT/Week%201)
 | 2 | [Week 2](https://github.com/BEASTgg/6thsem/tree/main/CSE%20CORE/HACKER%20RANK%20ASSIGNMENT/Week%202)
 
-### Soft Computing Lab Assignments :
+### Compiler Design Lab Assignments :
 
 | No. | Assignment
 | --- | ---
-| 1 | [Assignment 1](https://github.com/BEASTgg/6thsem/tree/main/CSE%20CORE/SOFT%20COMPUTING%20LAB)
+| 1 | [Assignment 1](https://github.com/BEASTgg/6thsem/tree/main/CSE%20CORE/COMPILER%20DESIGN%20LAB)
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

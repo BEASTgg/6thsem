@@ -54,12 +54,12 @@ WHY NOT STAR ⭐ THIS REPO IF YOU FIND IT HELPFUL !
 
 | No. | Subject | Extras
 | --- | --- | --- |
-| 1 | [Compiler Design](https://drive.google.com/drive/folders/15SbWcmwVpfJSBcgK8mNy6Gz8q4OAuPB1?usp=sharing) | [+ Books]() |
-| 2 | [Computer Networks](https://drive.google.com/drive/folders/175TuLjY4_huU5ViOiLh32UV2zVYQfWqe?usp=sharing) | [+ Books]() |
+| 1 | [Compiler Design](https://drive.google.com/drive/folders/15SbWcmwVpfJSBcgK8mNy6Gz8q4OAuPB1?usp=sharing) | [+ Books](https://drive.google.com/drive/folders/14BO9_0qc9zfY1GGXJDJGH4uvmGZTw8GJ?usp=sharing) |
+| 2 | [Computer Networks](https://drive.google.com/drive/folders/175TuLjY4_huU5ViOiLh32UV2zVYQfWqe?usp=sharing) | [+ Books](https://drive.google.com/drive/folders/1dKY-iIK648dI8Lgv2xMLbPa4FT6-glGL?usp=sharing) |
 | 3 | [ESP - VI](https://drive.google.com/drive/folders/1rXs-b3rzsNQPsU6-EvnKvNfHzW8stTcM?usp=sharing) | []() |
-| 4 | [Finance And Accounting](https://drive.google.com/drive/folders/1-GaeFwNvZHTbKVGO2wC3zJtKDUo2qLq2?usp=sharing) | [+ Books]() |
-| 5 | [Embedded Systems](https://drive.google.com/drive/folders/1YV5xiJcpBGBs5OeUtn1ZCv7VWWav9Brc?usp=sharing) | [+ Books]() |
-| 6 | [Blockchain Technology](https://drive.google.com/drive/folders/1N6q-XfLqP2rbRkTvX-tBoEtZPxkyT_0Q?usp=sharing) | [+ Books]() |
+| 4 | [Finance And Accounting](https://drive.google.com/drive/folders/1-GaeFwNvZHTbKVGO2wC3zJtKDUo2qLq2?usp=sharing) | [+ Books](https://drive.google.com/drive/folders/1tSrT23toSesSOLQyAxCwFY3MdBVKxkWS?usp=sharing) |
+| 5 | [Embedded Systems](https://drive.google.com/drive/folders/1YV5xiJcpBGBs5OeUtn1ZCv7VWWav9Brc?usp=sharing) | [+ Books](https://drive.google.com/drive/folders/1zXgSm7fLBQrn-X4JSTg73OBjSimy1zx0?usp=sharing) |
+| 6 | [Blockchain Technology](https://drive.google.com/drive/folders/1N6q-XfLqP2rbRkTvX-tBoEtZPxkyT_0Q?usp=sharing) | [+ Books](https://drive.google.com/drive/folders/1NwdBJUP9NtEqWmYoE_vI5uud18HlSu5u?usp=sharing) |
 | 7 | [SDP - VI](https://drive.google.com/drive/folders/1tBElPEKORr6qjOO8Xf_J8V4bRZbVBfrQ?usp=sharing) | []() |
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

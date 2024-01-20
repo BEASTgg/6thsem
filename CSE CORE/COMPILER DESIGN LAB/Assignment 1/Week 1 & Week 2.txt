@@ -73,3 +73,79 @@ Insert a string to check - // comment
 This is a comment
 
 Week 2 - 
+
+3) Write a C program to read a program written in a file and remove all comments. After removing all comments, rewrite the program in a separate file.
+
+code - 
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+void removeComments(FILE *sourceFile, FILE *outputFile) {
+    int currentChar, nextChar;
+    while ((currentChar = fgetc(sourceFile)) != EOF) {
+        if (currentChar == '/') {
+            nextChar = fgetc(sourceFile);
+            if (nextChar == '/') {
+                while ((currentChar = fgetc(sourceFile)) != '\n' && currentChar != EOF);
+            } else if (nextChar == '*') {
+                do {
+                    while ((currentChar = fgetc(sourceFile)) != '*')
+                        if (currentChar == EOF) break;
+                    nextChar = fgetc(sourceFile);
+                } while (nextChar != '/' && currentChar != EOF);
+            } else {
+                fputc(currentChar, outputFile);
+                fputc(nextChar, outputFile);
+            }
+        } else {
+            fputc(currentChar, outputFile);
+        }
+    }
+}
+int main() {
+    FILE *sourceFile, *outputFile;
+    char sourceFileName[100], outputFileName[100];
+
+    printf("Enter the name of the source code file: ");
+    scanf("%s", sourceFileName);
+
+    sourceFile = fopen(sourceFileName, "r");
+
+    if (sourceFile == NULL) {
+        printf("Error opening source file.\n");
+        return 1;
+    }
+
+    printf("Enter the name of the output file: ");
+    scanf("%s", outputFileName);
+
+    outputFile = fopen(outputFileName, "w");
+
+    if (outputFile == NULL) {
+        printf("Error opening output file.\n");
+        fclose(sourceFile);
+        return 1;
+    }
+
+    removeComments(sourceFile, outputFile);
+
+    printf("Comments removed successfully. Check the file %s\n", outputFileName);
+
+    fclose(sourceFile);
+    fclose(outputFile);
+
+    return 0;
+}
+
+Output - 
+
+Enter the name of the source code file: file1.txt
+Enter the name of the output file: file2.txt
+Comments removed successfully. Check the file file2.txt
+
+4) Write a C program to convert an infix statement into a postfix statement.
+
+code -
+

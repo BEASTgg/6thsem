@@ -2,6 +2,8 @@
 WELCOME BACK AGAIN !
 </p>
 
+# The handler's of the repository is sick and may get delay in Assignments !
+
 ## For CSE CORE Syllabus : [Click Here](https://drive.google.com/file/d/1TJuCKXUKw_iQDzJiN_kJm9904Wh2tLmT/view?usp=sharing)
 ## For CSE IOT Syllabus : [Click Here](https://drive.google.com/file/d/1t3p1AXfcaK7lLmiY8Cs7lQ14NKkH8v2C/view?usp=sharing)
 ## For CSE AIML Syllabus : [Click Here](https://drive.google.com/file/d/1TJuCKXUKw_iQDzJiN_kJm9904Wh2tLmT/view?usp=sharing)

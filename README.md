@@ -38,6 +38,7 @@ WHY NOT STAR ⭐ THIS REPO IF YOU FIND IT HELPFUL !
 
 | No. | Assignment
 | --- | ---
+| - | [QUESTION PAPER](https://github.com/BEASTgg/6thsem/blob/main/CSE%20CORE/COMPILER%20DESIGN%20LAB/COMPILER%20DESIGN%20LAB%20QUESTIONS.pdf)
 | 1 | [Assignment 1](https://github.com/BEASTgg/6thsem/tree/main/CSE%20CORE/COMPILER%20DESIGN%20LAB/Assignment%201)
 
 

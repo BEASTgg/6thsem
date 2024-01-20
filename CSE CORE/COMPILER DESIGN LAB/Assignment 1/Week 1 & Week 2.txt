@@ -1,4 +1,75 @@
 Week 1 -
 
-1) 
+1) Write a C program to check if a user given string is a valid identifier or not?
 
+Code -
+
+#include <stdio.h>
+#include <string.h>
+
+void checkidentifier(char inputt[])
+{
+    if (inputt[0] == '_' || (inputt[0] >= 'A' && inputt[0] <= 'Z') || (inputt[0] >= 'a' && inputt[0] <= 'z'))
+    {
+        printf("Valid Identifier");
+    }
+    else
+    {
+        printf("Invalid Identifier");
+    }
+}
+
+int main()
+{
+    char inputt[100];
+    printf("Insert a string to check - ");
+    gets(inputt);
+    checkidentifier(inputt);
+}
+
+Output - 
+
+Insert a string to check - _ABC
+Valid Identifier
+
+2) Write a C program to check if a user given C program statement is a valid Comment or not?
+
+Code - 
+
+#include <stdio.h>
+#include <string.h>
+
+void checkcomment(char inputt[])
+{
+    if (inputt[0] == '/')
+    {
+        if (inputt[1] == '/' || (inputt[1] == '*' && inputt[strlen(inputt) - 1] == '/' && inputt[strlen(inputt) - 2] == '*'))
+        {
+            printf("This is a Comment");
+        }
+        else
+        {
+            printf("This is not a Comment");
+        }
+    }
+    else
+    {
+        printf("This is not a Comment");
+    }
+}
+
+int main()
+{
+    char inputt[100];
+    printf("Insert a string to check - ");
+    gets(inputt);
+    checkcomment(inputt);
+    return 0;
+}
+
+Output - 
+
+Insert a string to check - // comment
+This is a comment
+
+Week 2 - 

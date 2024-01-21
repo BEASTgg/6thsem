@@ -96,7 +96,7 @@ WHY NOT STAR ⭐ THIS REPO IF YOU FIND IT HELPFUL !
 | No. | Assignment
 | --- | ---
 | 1 | [Week 1](https://github.com/Shback007/6thsem/tree/main/CSE%20AIML/COMPUTER%20NETWORK%20LAB/Assignment%201)
-| 2 | [Week 2](https://github.com/Shback007/6thsem/tree/main/CSE%20AIML/COMPUTER%20NETWORK%20LAB/Assignment%202)
+| 2 | [Week 2](https://github.com/Shback007/6thsem/blob/main/CSE%20AIML/COMPUTER%20NETWORK%20LAB/Assignment%202/Networking%20Commands.pdf)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

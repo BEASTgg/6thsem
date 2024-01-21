@@ -45,6 +45,15 @@ WHY NOT STAR ⭐ THIS REPO IF YOU FIND IT HELPFUL !
 
 ### CSE (IOT) :
 
+### Competitive Coding Assignments :
+
+#### HACKER RANK :
+
+| No. | Assignment
+| --- | ---
+| 1 | [Week 1]()
+| 2 | [Week 2]()
+
 #### Compiler Design Lab Assignments :
 
 | No. | Assignment
@@ -56,6 +65,15 @@ WHY NOT STAR ⭐ THIS REPO IF YOU FIND IT HELPFUL !
 | --- | ---
 
 ### CSE (AIML) :
+
+### Competitive Coding Assignments :
+
+#### HACKER RANK :
+
+| No. | Assignment
+| --- | ---
+| 1 | [Week 1]()
+| 2 | [Week 2]()
 
 #### Compiler Design Lab Assignments :
 

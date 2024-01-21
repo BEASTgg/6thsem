@@ -43,6 +43,11 @@ WHY NOT STAR ⭐ THIS REPO IF YOU FIND IT HELPFUL !
 | . | [QUESTION PAPER](https://drive.google.com/file/d/1ofnt_xslwujyfRRg2jTv0JlD66j5Ebdx/view?usp=sharing)
 | 1 | [Assignment 1](https://github.com/BEASTgg/6thsem/tree/main/CSE%20CORE/COMPILER%20DESIGN%20LAB/Assignment%201)
 
+### Computer Network Lab Assignments :
+
+| No. | Assignment
+| --- | ---
+
 ### CSE (IOT) :
 
 ### Competitive Coding Assignments :

@@ -72,7 +72,7 @@ WHY NOT STAR ⭐ THIS REPO IF YOU FIND IT HELPFUL !
 
 | No. | Assignment
 | --- | ---
-| 1 | [Week 1]()
+| 1 | [Week 1](https://github.com/BEASTgg/6thsem/blob/main/CSE%20AIML/HACKER%20RANK%20ASSIGNMENT/Week%201/1.txt)
 | 2 | [Week 2]()
 
 #### Compiler Design Lab Assignments :

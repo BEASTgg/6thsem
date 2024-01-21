@@ -65,6 +65,7 @@ WHY NOT STAR ⭐ THIS REPO IF YOU FIND IT HELPFUL !
 
 | No. | Assignment
 | --- | ---
+| 1 |[All Week](https://github.com/Shback007/6thsem/blob/main/CSE%20AIML/COMPILER%20DESIGN%20LAB/Compiler%20Design%20Full%20Assignment.pdf)
 
 ### Computer Network Lab Assignments :
 
@@ -88,6 +89,7 @@ WHY NOT STAR ⭐ THIS REPO IF YOU FIND IT HELPFUL !
 
 | No. | Assignment
 | --- | ---
+| 1 |[All Week](https://github.com/Shback007/6thsem/blob/main/CSE%20AIML/COMPILER%20DESIGN%20LAB/Compiler%20Design%20Full%20Assignment.pdf)
 
 ### Computer Network Lab Assignments :
 

@@ -93,7 +93,8 @@ WHY NOT STAR ⭐ THIS REPO IF YOU FIND IT HELPFUL !
 
 | No. | Assignment
 | --- | ---
-| 1 | []()
+| 1 | [Assignment 1](https://github.com/BEASTgg/6thsem/tree/main/CSE%20AIML/COMPUTER%20NETWORK%20LAB/Assignment%201)
+| 2 | [Assignment 2](https://github.com/BEASTgg/6thsem/blob/main/CSE%20AIML/COMPUTER%20NETWORK%20LAB/Assignment%202/Networking%20Commands.pdf)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

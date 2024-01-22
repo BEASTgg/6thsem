@@ -87,11 +87,13 @@ WHY NOT STAR ⭐ THIS REPO IF YOU FIND IT HELPFUL !
 
 | No. | Assignment
 | --- | ---
+| 1 | [FULL](https://github.com/BEASTgg/6thsem/blob/main/CSE%20AIML/COMPILER%20DESIGN%20LAB/Compiler%20Design%20Full%20Assignment.pdf)
 
 ### Computer Network Lab Assignments :
 
 | No. | Assignment
 | --- | ---
+| 1 | []()
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

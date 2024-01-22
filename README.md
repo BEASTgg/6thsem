@@ -64,6 +64,7 @@ WHY NOT STAR ⭐ THIS REPO IF YOU FIND IT HELPFUL !
 
 | No. | Assignment
 | --- | ---
+| 1 | [Full Assignments](https://github.com/BEASTgg/6thsem/blob/main/CSE%20(IOT)/COMPILER%20DESIGN%20LAB/Compiler%20Design%20Full%20Assignment.pdf)
 
 ### Computer Network Lab Assignments :
 

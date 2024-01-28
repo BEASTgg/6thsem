@@ -1,0 +1,400 @@
+Week - 3
+
+1) Permuting two arrays
+
+import java.io.*;
+import java.math.BigInteger;
+import java.util.*;
+
+import static java.util.Arrays.*;
+
+public class Solution {
+	private static final int mod = (int)1e9+7;
+	
+	final Random random = new Random(1);
+	final IOFast io = new IOFast();
+	
+	public void run() throws IOException {
+		int T = io.nextInt();
+		LOOP: while(T-- != 0) {
+			int n = io.nextInt();
+			int k = io.nextInt();
+			int[] A = new int[n];
+			int[] B = new int[n];
+			for(int i = 0; i < A.length; i++) {
+				A[i] = io.nextInt();
+			}
+			for(int i = 0; i < A.length; i++) {
+				B[i] = io.nextInt();
+			}
+			sort(A);
+			sort(B);
+			for(int i = 0; i < A.length; i++) {
+				if(A[i] + B[n-1-i] < k) {
+					io.out.println("NO");
+					continue LOOP;
+				}
+			}
+			io.out.println("YES");
+		}
+	}
+	
+	void main() throws IOException {
+		//		IOFast.setFileIO("rle-size.in", "rle-size.out");
+		try {
+			run();
+		}
+		catch (EndOfFileRuntimeException e) { }
+		io.out.flush();
+	}
+
+	public static void main(String[] args) throws IOException {
+		new Solution().main();
+	}
+	
+	static class EndOfFileRuntimeException extends RuntimeException {
+		private static final long serialVersionUID = -8565341110209207657L; }
+
+	static
+	public class IOFast {
+		private BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+		private PrintWriter out = new PrintWriter(System.out);
+
+		void setFileIO(String ins, String outs) throws IOException {
+			in = new BufferedReader(new FileReader(ins));
+			out = new PrintWriter(new FileWriter(outs));
+		}
+
+		private static int pos, readLen;
+		private static final char[] buffer = new char[1024 * 8];
+		private static final char[] str = new char[500000*8*2];
+		private static boolean[] isDigit = new boolean[256];
+		private static boolean[] isSpace = new boolean[256];
+		private static boolean[] isLineSep = new boolean[256];
+
+		static {
+			for(int i = 0; i < 10; i++) { isDigit['0' + i] = true; }
+			isDigit['-'] = true;
+			isSpace[' '] = isSpace['\r'] = isSpace['\n'] = isSpace['\t'] = true;
+			isLineSep['\r'] = isLineSep['\n'] = true;
+		}
+
+		public int read() throws IOException {
+			if(pos >= readLen) {
+				pos = 0;
+				readLen = in.read(buffer);
+				if(readLen <= 0) { throw new EndOfFileRuntimeException(); }
+			}
+			return buffer[pos++];
+		}
+
+		public int nextInt() throws IOException {
+			return Integer.parseInt(nextString());
+		}
+
+		public long nextLong() throws IOException {
+			return Long.parseLong(nextString());
+		}
+
+		public char nextChar() throws IOException {
+			while(true) {
+				final int c = read();
+				if(!isSpace[c]) { return (char)c; }
+			}
+		}
+		
+		int reads(char[] cs, int len, boolean[] accept) throws IOException {
+			try {
+				while(true) {
+					final int c = read();
+					if(accept[c]) { break; }
+					str[len++] = (char)c;
+				}
+			}
+			catch(EndOfFileRuntimeException e) { ; }
+			
+			return len;
+		}
+
+		public char[] nextLine() throws IOException {
+			int len = 0;
+			str[len++] = nextChar();
+			len = reads(str, len, isLineSep);
+			
+			try {
+				if(str[len-1] == '\r') { len--; read(); }
+			}
+			catch(EndOfFileRuntimeException e) { ; }
+			
+			return Arrays.copyOf(str, len);
+		}
+
+		public String nextString() throws IOException {
+			return new String(next());
+		}
+
+		public char[] next() throws IOException {
+			int len = 0;
+			str[len++] = nextChar();
+			len = reads(str, len, isSpace);
+			return Arrays.copyOf(str, len);
+		}
+
+		public double nextDouble() throws IOException {
+			return Double.parseDouble(nextString());
+		}
+
+	}
+
+}
+
+2) Subarray division 2
+
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.function.*;
+import java.util.regex.*;
+import java.util.stream.*;
+import static java.util.stream.Collectors.joining;
+import static java.util.stream.Collectors.toList;
+
+class Result {
+
+    /*
+     * Complete the 'birthday' function below.
+     *
+     * The function is expected to return an INTEGER.
+     * The function accepts following parameters:
+     *  1. INTEGER_ARRAY s
+     *  2. INTEGER d
+     *  3. INTEGER m
+     */
+
+    public static int birthday(List<Integer> s, int d, int m) {
+    // Write your code here
+        int sum;
+        int count = 0;
+        for (int i=0; i<=s.size()-m; i++) {
+            sum = s.subList(i, i+m).stream().reduce((a,b)->a+b).get();
+            if (sum == d) {
+                count++;
+            }
+        }
+        return count;
+    }
+
+}
+
+public class Solution {
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+
+        int n = Integer.parseInt(bufferedReader.readLine().trim());
+
+        List<Integer> s = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
+            .map(Integer::parseInt)
+            .collect(toList());
+
+        String[] firstMultipleInput = bufferedReader.readLine().replaceAll("\\s+$", "").split(" ");
+
+        int d = Integer.parseInt(firstMultipleInput[0]);
+
+        int m = Integer.parseInt(firstMultipleInput[1]);
+
+        int result = Result.birthday(s, d, m);
+
+        bufferedWriter.write(String.valueOf(result));
+        bufferedWriter.newLine();
+
+        bufferedReader.close();
+        bufferedWriter.close();
+    }
+}
+
+3) XOR Strings 3
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static String stringsXOR(String s, String t) {
+        String res = new String("");
+        for(int i = 0; i < s.length(); i++) {
+            if(s.charAt(i) == t.charAt(i))
+                res += "0";
+            else
+                res += "1";
+        }
+
+        return res;
+    }
+
+    public static void main(String[] args) {
+
+        String s, t;
+        Scanner in = new Scanner(System.in);
+        s = in.nextLine();
+        t = in.nextLine();
+        System.out.println(stringsXOR(s, t));
+
+    }
+
+}
+
+4) Sales By Match
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int n=in.nextInt();
+        int[] hash = new int[300];
+        for(int i=0; i<n; i++){
+            hash[in.nextInt()]++;
+        }
+        long ans=0;
+        for(int p: hash){
+            ans+=p/2;
+        }
+        System.out.println(ans);
+    }
+}
+
+5) Migratory Birds
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
+        int[] birds = new int[5];
+        for (int i = 0; i < n; i++) birds[in.nextInt()-1]++;
+        int max = 0;
+        int id = 0;
+        for (int i = 0; i < 5; i++) {
+            if (birds[i] > max) {
+                max = birds[i];
+                id = i+1;
+            }
+        }
+        System.out.println(id);
+    }
+}
+
+6) Maximum Perimeter Triangle
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        int n = sc.nextInt();
+        int[] a = new int[n];
+        for (int i = 0; i < n; i++) {
+            a[i] = sc.nextInt();
+        }
+        Arrays.sort(a);
+        
+        int ans = -1;
+        for (int i = 2; i < n; i++) {
+            if (a[i-2]+a[i-1]>a[i])
+                ans = i;
+        }
+        if (ans == -1)
+            System.out.println(-1);
+        else
+            System.out.println(a[ans-2]+" "+a[ans-1]+" "+a[ans]);
+    }
+}
+
+7) Zig Zag Sequence
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+import java.math.*;
+public class Main {
+    
+    public static void main (String[] args) throws java.lang.Exception {
+        Scanner kb = new Scanner(System.in);
+        int test_cases = kb.nextInt();
+        for(int cs = 1; cs <= test_cases; cs++){
+            int n = kb.nextInt();
+             int a[] = new int[n];
+            for(int i = 0; i < n; i++){
+                a[i] = kb.nextInt();
+            }
+            findZigZagSequence(a, n);
+        }
+   }
+   
+    public static void findZigZagSequence(int [] a, int n){
+        Arrays.sort(a);
+        int mid = n/2;
+        int temp = a[mid];
+        a[mid] = a[n - 1];
+        a[n - 1] = temp;
+    
+        int st = mid + 1;
+        int ed = n - 2;
+        while(st <= ed){
+            temp = a[st];
+            a[st] = a[ed];
+            a[ed] = temp;
+            st = st + 1;
+            ed = ed - 1;
+        }
+        for(int i = 0; i < n; i++){
+            if(i > 0) System.out.print(" ");
+            System.out.print(a[i]);
+        }
+        System.out.println();
+    }
+}
+
+8) Drawing Book
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
+        int p = in.nextInt();
+        int mid = (n + 1) / 2;
+        if(p < mid) {
+            System.out.println(p / 2);
+        } else {
+            System.out.println((n - p) / 2);
+        }
+    }
+}

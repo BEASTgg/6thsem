@@ -34,6 +34,7 @@ WHY NOT STAR ⭐ THIS REPO IF YOU FIND IT HELPFUL !
 | --- | ---
 | 1 | [Week 1](https://github.com/BEASTgg/6thsem/tree/main/CSE%20CORE/HACKER%20RANK%20ASSIGNMENT/Week%201)
 | 2 | [Week 2](https://github.com/BEASTgg/6thsem/tree/main/CSE%20CORE/HACKER%20RANK%20ASSIGNMENT/Week%202)
+| 3 | [Week 3](https://github.com/BEASTgg/6thsem/blob/main/CSE%20CORE/HACKER%20RANK%20ASSIGNMENT/Week%203/Week%20-%203.txt)
 
 ### Compiler Design Lab Assignments :
 
@@ -59,6 +60,7 @@ WHY NOT STAR ⭐ THIS REPO IF YOU FIND IT HELPFUL !
 | --- | ---
 | 1 | [Week 1](https://github.com/BEASTgg/6thsem/blob/main/CSE%20(IOT)/HACKER%20RANK%20ASSIGNMENT/Week%201/1.txt)
 | 2 | [Week 2](https://github.com/BEASTgg/6thsem/blob/main/CSE%20(IOT)/HACKER%20RANK%20ASSIGNMENT/Week%202/2.txt)
+| 3 | [Week 3]()
 
 #### Compiler Design Lab Assignments :
 
@@ -83,6 +85,7 @@ WHY NOT STAR ⭐ THIS REPO IF YOU FIND IT HELPFUL !
 | --- | ---
 | 1 | [Week 1](https://github.com/BEASTgg/6thsem/blob/main/CSE%20AIML/HACKER%20RANK%20ASSIGNMENT/Week%201/1.txt)
 | 2 | [Week 2](https://github.com/BEASTgg/6thsem/blob/main/CSE%20AIML/HACKER%20RANK%20ASSIGNMENT/Week%202/2.txt)
+| 3 | [Week 3]()
 
 #### Compiler Design Lab Assignments :
 

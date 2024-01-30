@@ -140,7 +140,7 @@ WHY NOT STAR ⭐ THIS REPO IF YOU FIND IT HELPFUL !
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#### Credit to Mister Ponaki oh wait Mister Big PP um i mean to Mister Pinaki [ @PixMusicaX ](https://github.com/PixMusicaX) for contributions in CSE (IOT) Assignments !
+#### Credit to Mister Ponaki oh wait Mister Big PP um i mean to Mister Pinaki ([ @PixMusicaX ](https://github.com/PixMusicaX)) for contributions in CSE (IOT) Assignments !
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

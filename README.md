@@ -73,6 +73,8 @@ WHY NOT STAR ⭐ THIS REPO IF YOU FIND IT HELPFUL !
 | No. | Assignment
 | --- | ---
 
+#### Credit to Mister Ponaki oh wait Mister Big PP um i mean to Mister Pinaki ([ @PixMusicaX ](https://github.com/PixMusicaX)) for contributions in CSE (IOT) Assignments !
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## CSE (AIML) :
@@ -137,10 +139,6 @@ WHY NOT STAR ⭐ THIS REPO IF YOU FIND IT HELPFUL !
 ## For Youtube Videos : [Click Here](https://drive.google.com/file/d/1rlhgigA6dR4UaMJLO5TFmMNoWFfUYPmS/view?usp=sharing)
 
 ## For Google Drive : [Click Here](https://drive.google.com/drive/folders/1mUm7of83a41k5uJQLcgt91DZne-b479P?usp=sharing)
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-#### Credit to Mister Ponaki oh wait Mister Big PP um i mean to Mister Pinaki ([ @PixMusicaX ](https://github.com/PixMusicaX)) for contributions in CSE (IOT) Assignments !
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

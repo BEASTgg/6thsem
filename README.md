@@ -1,4 +1,4 @@
-# WELCOME to 6th Sem!
+# Welcome to 6th Sem!
 ## ⭐ this 6 times?
 ### Disclaimer: The handler(s) of this repository will not be responsible for any wrong assignments and/or any other discrepencies caused on your end.
 #### Click on [Stream Headers](https://github.com/PixMusicaX/6thsem/blob/main/README.md#cseiot-) for corresponding Syllabus
@@ -8,9 +8,9 @@
 
 ## [CSE(CORE)](https://drive.google.com/file/d/1TJuCKXUKw_iQDzJiN_kJm9904Wh2tLmT/view?usp=sharing):
 
-### Competitive Coding Assignments :
+### Competitive Coding Assignments:
 
-#### HACKERRANK :
+#### HACKERRANK:
 
 | No. | Assignment |
 | --- | --- |
@@ -18,14 +18,14 @@
 | 2 | [Week 2](https://github.com/BEASTgg/6thsem/tree/main/CSE%20CORE/HACKER%20RANK%20ASSIGNMENT/Week%202) |
 | 3 | [Week 3](https://github.com/BEASTgg/6thsem/blob/main/CSE%20CORE/HACKER%20RANK%20ASSIGNMENT/Week%203) |
 
-### Compiler Design :
+### Compiler Design:
 
 | No. | Assignment |
 | --- | --- |
 | . | [QUESTION PAPER](https://drive.google.com/file/d/1ofnt_xslwujyfRRg2jTv0JlD66j5Ebdx/view?usp=sharing) |
 | 1 | [Assignment 1](https://github.com/BEASTgg/6thsem/blob/main/CSE%20CORE/COMPILER%20DESIGN%20LAB/Assignment%201/Week%201%20%26%20Week%202.txt) |
 
-### Computer Network Lab Assignments :
+### Computer Networks:
 
 | No. | Assignment |
 | --- | --- |
@@ -34,53 +34,51 @@
 
 ## [CSE(IOT)](https://drive.google.com/file/d/1t3p1AXfcaK7lLmiY8Cs7lQ14NKkH8v2C/view?usp=sharing):
 
-### Competitive Coding Assignments :
+### Competitive Coding Assignments:
 
-#### HACKER RANK :
+#### HACKERRANK:
 
-| No. | Assignment
-| --- | ---
-| 1 | [Week 1](https://github.com/BEASTgg/6thsem/blob/main/CSE%20(IOT)/HACKER%20RANK%20ASSIGNMENT/Week%201/1.txt)
-| 2 | [Week 2](https://github.com/BEASTgg/6thsem/blob/main/CSE%20(IOT)/HACKER%20RANK%20ASSIGNMENT/Week%202/2.txt)
-| 3 | [Week 3](https://github.com/BEASTgg/6thsem/blob/main/CSE%20(IOT)/HACKER%20RANK%20ASSIGNMENT/Week%203/3.txt)
+| No. | Assignment |
+| --- | --- |
+| 1 | [Week 1](https://github.com/BEASTgg/6thsem/blob/main/CSE%20(IOT)/HACKER%20RANK%20ASSIGNMENT/Week%201/1.txt) |
+| 2 | [Week 2](https://github.com/BEASTgg/6thsem/blob/main/CSE%20(IOT)/HACKER%20RANK%20ASSIGNMENT/Week%202/2.txt) |
+| 3 | [Week 3](https://github.com/BEASTgg/6thsem/blob/main/CSE%20(IOT)/HACKER%20RANK%20ASSIGNMENT/Week%203/3.txt) |
 
-#### Compiler Design Lab Assignments :
+#### Compiler Design:
 
-| No. | Assignment
-| --- | ---
-| 1 | [Week 1](https://github.com/BEASTgg/6thsem/tree/main/CSE%20(IOT)/COMPILER%20DESIGN%20LAB/Week1)
+| No. | Assignment |
+| --- | --- |
+| 1 | [Week 1](https://github.com/BEASTgg/6thsem/tree/main/CSE%20(IOT)/COMPILER%20DESIGN%20LAB/Week1) |
 
-### Computer Network Lab Assignments :
+### Computer Networks:
 
-| No. | Assignment
-| --- | ---
+| No. | Assignment |
+| --- | --- |
 
-#### Credit to Mister Ponaki oh wait Mister Big PP um i mean to Mister Pinaki ([ @PixMusicaX ](https://github.com/PixMusicaX)) for contributions in CSE (IOT) Assignments !
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 ## [CSE(AIML)](https://drive.google.com/file/d/1TJuCKXUKw_iQDzJiN_kJm9904Wh2tLmT/view?usp=sharing):
 
-### Competitive Coding Assignments :
+### Competitive Coding Assignments:
 
-#### HACKER RANK :
+#### HACKERRANK:
 
-| No. | Assignment
-| --- | ---
-| 1 | [Week 1](https://github.com/BEASTgg/6thsem/blob/main/CSE%20AIML/HACKER%20RANK%20ASSIGNMENT/Week%201/1.txt)
-| 2 | [Week 2](https://github.com/BEASTgg/6thsem/blob/main/CSE%20AIML/HACKER%20RANK%20ASSIGNMENT/Week%202/2.txt)
-| 3 | [Week 3](https://github.com/BEASTgg/6thsem/blob/main/CSE%20AIML/HACKER%20RANK%20ASSIGNMENT/Week%203/3.txt)
+| No. | Assignment |
+| --- | --- |
+| 1 | [Week 1](https://github.com/BEASTgg/6thsem/blob/main/CSE%20AIML/HACKER%20RANK%20ASSIGNMENT/Week%201/1.txt) |
+| 2 | [Week 2](https://github.com/BEASTgg/6thsem/blob/main/CSE%20AIML/HACKER%20RANK%20ASSIGNMENT/Week%202/2.txt) |
+| 3 | [Week 3](https://github.com/BEASTgg/6thsem/blob/main/CSE%20AIML/HACKER%20RANK%20ASSIGNMENT/Week%203/3.txt) |
 
 #### Compiler Design Lab Assignments :
 
-| No. | Assignment
-| --- | ---
-| 1 | [Full Assignments](https://github.com/BEASTgg/6thsem/blob/main/CSE%20AIML/COMPILER%20DESIGN%20LAB/Compiler%20Design%20Full%20Assignment.pdf)
+| No. | Assignment |
+| --- | --- |
+| 1 | [Full Assignments](https://github.com/BEASTgg/6thsem/blob/main/CSE%20AIML/COMPILER%20DESIGN%20LAB/Compiler%20Design%20Full%20Assignment.pdf) |
 
 ### Computer Network Lab Assignments :
 
-| No. | Assignment
-| --- | ---
+| No. | Assignment |
+| --- | --- |
 | 1 | [Assignment 1](https://github.com/BEASTgg/6thsem/tree/main/CSE%20AIML/COMPUTER%20NETWORK%20LAB/Assignment%201)
 | 2 | [Assignment 2](https://github.com/BEASTgg/6thsem/blob/main/CSE%20AIML/COMPUTER%20NETWORK%20LAB/Assignment%202/Networking%20Commands.pdf)
 

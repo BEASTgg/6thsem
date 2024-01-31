@@ -55,7 +55,7 @@
 | No. | Assignment |
 | --- | --- |
 
-Thanks to Pinaki ( [@PixMusicax](https://github.com/PixMusicaX) ) for CSE (IOT) Assignments !
+Thanks to [@PixMusicax](https://github.com/PixMusicaX) for CSE(IOT) Assignments !
 
 ---
 
@@ -124,5 +124,8 @@ Thanks to Pinaki ( [@PixMusicax](https://github.com/PixMusicaX) ) for CSE (IOT) 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<!-- <img align="right" alt="SAY NO TO GPT" width="1600" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT78zaHjm3pAOmdUl6LhVzCO41IjVtwzdsFaw&usqp=CAU"> -->
+<p align="left">
+  <img src="https://github.com/PixMusicaX/PiXMusicaX/blob/main/Okabe%20Rintaro%20Typing%20on%20the%20computer%20ASMR.gif" />  <img src="https://github.com/PixMusicaX/Sem6IoT/assets/129383302/9847ab9d-3ae2-490a-89fe-351c23a45f02" width="400" height="225"/>
+  </p>
+<!-- ![4Sur](https://github.com/PixMusicaX/Sem6IoT/assets/129383302/9847ab9d-3ae2-490a-89fe-351c23a45f02) -->
 

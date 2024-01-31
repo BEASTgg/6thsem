@@ -55,6 +55,8 @@
 | No. | Assignment |
 | --- | --- |
 
+Thanks to Pinaki ( (@PixMusicax)[https://github.com/PixMusicaX] ) for CSE (IOT) Assignments !
+
 ---
 
 ## [CSE(AIML)](https://drive.google.com/file/d/1TJuCKXUKw_iQDzJiN_kJm9904Wh2tLmT/view?usp=sharing):

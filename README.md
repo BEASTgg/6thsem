@@ -18,7 +18,7 @@
 | 2 | [Week 2](https://github.com/BEASTgg/6thsem/tree/main/CSE%20CORE/HACKER%20RANK%20ASSIGNMENT/Week%202) |
 | 3 | [Week 3](https://github.com/BEASTgg/6thsem/blob/main/CSE%20CORE/HACKER%20RANK%20ASSIGNMENT/Week%203) |
 
-### Compiler Design:
+### [Compiler Design](https://drive.google.com/file/d/1ofnt_xslwujyfRRg2jTv0JlD66j5Ebdx/view?usp=sharing):
 
 | No. | Assignment |
 | --- | --- |
@@ -44,7 +44,7 @@
 | 2 | [Week 2](https://github.com/BEASTgg/6thsem/blob/main/CSE%20(IOT)/HACKER%20RANK%20ASSIGNMENT/Week%202/2.txt) |
 | 3 | [Week 3](https://github.com/BEASTgg/6thsem/blob/main/CSE%20(IOT)/HACKER%20RANK%20ASSIGNMENT/Week%203/3.txt) |
 
-#### Compiler Design:
+### [Compiler Design](https://drive.google.com/file/d/1ofnt_xslwujyfRRg2jTv0JlD66j5Ebdx/view?usp=sharing):
 
 | No. | Assignment |
 | --- | --- |
@@ -69,7 +69,7 @@
 | 2 | [Week 2](https://github.com/BEASTgg/6thsem/blob/main/CSE%20AIML/HACKER%20RANK%20ASSIGNMENT/Week%202/2.txt) |
 | 3 | [Week 3](https://github.com/BEASTgg/6thsem/blob/main/CSE%20AIML/HACKER%20RANK%20ASSIGNMENT/Week%203/3.txt) |
 
-#### Compiler Design Lab Assignments :
+### [Compiler Design](https://drive.google.com/file/d/1ofnt_xslwujyfRRg2jTv0JlD66j5Ebdx/view?usp=sharing):
 
 | No. | Assignment |
 | --- | --- |
@@ -79,8 +79,8 @@
 
 | No. | Assignment |
 | --- | --- |
-| 1 | [Assignment 1](https://github.com/BEASTgg/6thsem/tree/main/CSE%20AIML/COMPUTER%20NETWORK%20LAB/Assignment%201)
-| 2 | [Assignment 2](https://github.com/BEASTgg/6thsem/blob/main/CSE%20AIML/COMPUTER%20NETWORK%20LAB/Assignment%202/Networking%20Commands.pdf)
+| 1 | [Assignment 1](https://github.com/BEASTgg/6thsem/tree/main/CSE%20AIML/COMPUTER%20NETWORK%20LAB/Assignment%201) |
+| 2 | [Assignment 2](https://github.com/BEASTgg/6thsem/blob/main/CSE%20AIML/COMPUTER%20NETWORK%20LAB/Assignment%202/Networking%20Commands.pdf) |
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

@@ -32,7 +32,7 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## [CSE(IOT)]((https://drive.google.com/file/d/1t3p1AXfcaK7lLmiY8Cs7lQ14NKkH8v2C/view?usp=sharing)):
+## [CSE(IOT)](https://drive.google.com/file/d/1t3p1AXfcaK7lLmiY8Cs7lQ14NKkH8v2C/view?usp=sharing):
 
 ### Competitive Coding Assignments :
 

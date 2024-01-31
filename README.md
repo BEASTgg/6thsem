@@ -5,30 +5,30 @@
 ##### IF YOU ARE HAVING ISSUES VIEWING/DOWNLOADING PDF PLEASE USE A LAPTOP/DESKTOP FOR OPENING/DOWNLOADING IT! 
 
 ---
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## [CSE CORE](https://drive.google.com/file/d/1TJuCKXUKw_iQDzJiN_kJm9904Wh2tLmT/view?usp=sharing):
 
 ### Competitive Coding Assignments :
 
-#### HACKER RANK :
+#### HACKERRANK :
 
-| No. | Assignment
-| --- | ---
-| 1 | [Week 1](https://github.com/BEASTgg/6thsem/tree/main/CSE%20CORE/HACKER%20RANK%20ASSIGNMENT/Week%201)
-| 2 | [Week 2](https://github.com/BEASTgg/6thsem/tree/main/CSE%20CORE/HACKER%20RANK%20ASSIGNMENT/Week%202)
-| 3 | [Week 3](https://github.com/BEASTgg/6thsem/blob/main/CSE%20CORE/HACKER%20RANK%20ASSIGNMENT/Week%203)
+| No. | Assignment |
+| --- | --- |
+| 1 | [Week 1](https://github.com/BEASTgg/6thsem/tree/main/CSE%20CORE/HACKER%20RANK%20ASSIGNMENT/Week%201) |
+| 2 | [Week 2](https://github.com/BEASTgg/6thsem/tree/main/CSE%20CORE/HACKER%20RANK%20ASSIGNMENT/Week%202) |
+| 3 | [Week 3](https://github.com/BEASTgg/6thsem/blob/main/CSE%20CORE/HACKER%20RANK%20ASSIGNMENT/Week%203) |
 
-### Compiler Design Lab Assignments :
+### Compiler Design :
 
-| No. | Assignment
-| --- | ---
-| . | [QUESTION PAPER](https://drive.google.com/file/d/1ofnt_xslwujyfRRg2jTv0JlD66j5Ebdx/view?usp=sharing)
-| 1 | [Assignment 1](https://github.com/BEASTgg/6thsem/blob/main/CSE%20CORE/COMPILER%20DESIGN%20LAB/Assignment%201/Week%201%20%26%20Week%202.txt)
+| No. | Assignment |
+| --- | --- |
+| . | [QUESTION PAPER](https://drive.google.com/file/d/1ofnt_xslwujyfRRg2jTv0JlD66j5Ebdx/view?usp=sharing) |
+| 1 | [Assignment 1](https://github.com/BEASTgg/6thsem/blob/main/CSE%20CORE/COMPILER%20DESIGN%20LAB/Assignment%201/Week%201%20%26%20Week%202.txt) |
 
 ### Computer Network Lab Assignments :
 
-| No. | Assignment
-| --- | ---
+| No. | Assignment |
+| --- | --- |
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

@@ -1,23 +1,14 @@
-<p align="center">
-WELCOME BACK AGAIN !
-</p>
-
+# WELCOME to 6th Sem!
+## ⭐ this 6 times?
+### Disclaimer: The handler(s) of this repository will not be responsible for any wrong assignments and/or any other discrepencies caused on your end.
+#### msg4
+##### IF YOU ARE HAVING ISSUES VIEWING/DOWNLOADING PDF PLEASE USE A LAPTOP/DESKTOP FOR OPENING/DOWNLOADING IT! 
 
 ## For CSE CORE Syllabus : [Click Here](https://drive.google.com/file/d/1TJuCKXUKw_iQDzJiN_kJm9904Wh2tLmT/view?usp=sharing)
 ## For CSE IOT Syllabus : [Click Here](https://drive.google.com/file/d/1t3p1AXfcaK7lLmiY8Cs7lQ14NKkH8v2C/view?usp=sharing)
 ## For CSE AIML Syllabus : [Click Here](https://drive.google.com/file/d/1TJuCKXUKw_iQDzJiN_kJm9904Wh2tLmT/view?usp=sharing)
 
-# Disclaimer :warning: :
 
-The handler(s) of this repository will not be responsible for any wrong assignments and/or any other discrepencies caused on your end.
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-WHY NOT STAR ⭐ THIS REPO IF YOU FIND IT HELPFUL !
-
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 ---> IF YOU ARE HAVING ISSUES VIEWING/DOWNLOADING PDF PLEASE USE A LAPTOP/DESKTOP FOR OPENING/DOWNLOADING IT ! <---

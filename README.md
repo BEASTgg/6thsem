@@ -1,21 +1,12 @@
 # WELCOME to 6th Sem!
 ## ⭐ this 6 times?
 ### Disclaimer: The handler(s) of this repository will not be responsible for any wrong assignments and/or any other discrepencies caused on your end.
-#### msg4
+#### Click on [Stream Headers](https://github.com/PixMusicaX/6thsem/blob/main/README.md#cse-core-) for corresponding Syllabus
 ##### IF YOU ARE HAVING ISSUES VIEWING/DOWNLOADING PDF PLEASE USE A LAPTOP/DESKTOP FOR OPENING/DOWNLOADING IT! 
 
-## For CSE CORE Syllabus : [Click Here](https://drive.google.com/file/d/1TJuCKXUKw_iQDzJiN_kJm9904Wh2tLmT/view?usp=sharing)
-## For CSE IOT Syllabus : [Click Here](https://drive.google.com/file/d/1t3p1AXfcaK7lLmiY8Cs7lQ14NKkH8v2C/view?usp=sharing)
-## For CSE AIML Syllabus : [Click Here](https://drive.google.com/file/d/1TJuCKXUKw_iQDzJiN_kJm9904Wh2tLmT/view?usp=sharing)
-
-
-
-
----> IF YOU ARE HAVING ISSUES VIEWING/DOWNLOADING PDF PLEASE USE A LAPTOP/DESKTOP FOR OPENING/DOWNLOADING IT ! <---
-
-
+---
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## CSE CORE :
+## [CSE CORE](https://drive.google.com/file/d/1TJuCKXUKw_iQDzJiN_kJm9904Wh2tLmT/view?usp=sharing):
 
 ### Competitive Coding Assignments :
 
@@ -41,7 +32,7 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## CSE (IOT) :
+## [CSE(IOT)]((https://drive.google.com/file/d/1t3p1AXfcaK7lLmiY8Cs7lQ14NKkH8v2C/view?usp=sharing)):
 
 ### Competitive Coding Assignments :
 
@@ -68,7 +59,7 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## CSE (AIML) :
+## [CSE(AIML)](https://drive.google.com/file/d/1TJuCKXUKw_iQDzJiN_kJm9904Wh2tLmT/view?usp=sharing):
 
 ### Competitive Coding Assignments :
 

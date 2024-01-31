@@ -1,12 +1,12 @@
 # WELCOME to 6th Sem!
 ## ⭐ this 6 times?
 ### Disclaimer: The handler(s) of this repository will not be responsible for any wrong assignments and/or any other discrepencies caused on your end.
-#### Click on [Stream Headers](https://github.com/PixMusicaX/6thsem/blob/main/README.md#cse-core-) for corresponding Syllabus
+#### Click on [Stream Headers](https://github.com/PixMusicaX/6thsem/blob/main/README.md#cseiot-) for corresponding Syllabus
 ##### IF YOU ARE HAVING ISSUES VIEWING/DOWNLOADING PDF PLEASE USE A LAPTOP/DESKTOP FOR OPENING/DOWNLOADING IT! 
 
 ---
 
-## [CSE CORE](https://drive.google.com/file/d/1TJuCKXUKw_iQDzJiN_kJm9904Wh2tLmT/view?usp=sharing):
+## [CSE(CORE)](https://drive.google.com/file/d/1TJuCKXUKw_iQDzJiN_kJm9904Wh2tLmT/view?usp=sharing):
 
 ### Competitive Coding Assignments :
 

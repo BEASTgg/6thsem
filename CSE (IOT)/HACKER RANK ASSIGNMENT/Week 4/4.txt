@@ -1,0 +1,409 @@
+Week 4 -
+
+1) Picking Numbers
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
+        int[] a = new int[n];
+        for(int a_i=0; a_i < n; a_i++){
+            a[a_i] = in.nextInt();
+        }
+        
+        int[] freq = new int[100];
+        for(int i = 0; i < a.length; ++i)
+        {
+            freq[a[i]]++;
+        }
+        
+        int curBest = 0;
+        for(int i = 0; i < 99; ++i)
+        {
+            curBest = Math.max(curBest, freq[i]+freq[i+1]);
+        }
+        System.out.println(curBest);
+    }
+}
+
+2) Left Rotation
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int N = scan.nextInt();
+        int n = scan.nextInt();
+        int[] A = new int[N];
+        for (int i=0; i<N; ++i) {
+            A[i] = scan.nextInt();
+        }
+        for (int i=0; i<n; ++i) {
+            rotateArray(A);
+        }
+        for (int a : A) {
+            System.out.print(a+" ");
+        }
+        System.out.println("");
+    }
+    
+    private static void rotateArray(int[] A) {
+        int t = A[0];
+        for (int i=0; i<A.length-1; ++i) {
+            A[i] = A[i+1];
+        }
+        A[A.length-1] = t;
+    }
+}
+
+3) Number Line Jumps
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int x1 = in.nextInt();
+        int v1 = in.nextInt();
+        int x2 = in.nextInt();
+        int v2 = in.nextInt();
+        if(x1>x2)
+        {
+        if(v1<v2)
+        {
+            for(;;)
+            {
+                x1=x1+v1;
+                x2=x2+v2;
+                if (x1==x2)
+                {
+                    System.out.println("YES");
+                    break;
+                }
+                else
+                {
+                    if (x2>x1)
+                    {
+                        System.out.println("NO");
+                        break;
+                    }
+                }
+            }
+        }
+        else
+            System.out.println("NO");
+        
+    }
+    else if(x1<x2)
+        {
+        if(v1>v2)
+        {
+            for(;;)
+            {
+                x1=x1+v1;
+                x2=x2+v2;
+                if (x1==x2)
+                {
+                    System.out.println("YES");
+                    break;
+                }
+                else
+                {
+                    if (x1>x2)
+                    {
+                        System.out.println("NO");
+                        break;
+                    }
+                }
+            }
+        }
+        else
+            System.out.println("NO");
+    }
+    else
+        {
+        if(v1==v2)
+            System.out.println("YES");
+        else
+            System.out.println("NO");
+    }
+    }
+}
+
+4) Separate the Numbers
+
+import java.io.*;
+import java.util.StringTokenizer;
+
+
+public class Main {
+private void solve() {
+int n = rw.nextInt();
+main:
+for (int i = 0; i < n; ++i) {
+String s = rw.next();
+if (s.startsWith("0") || s.length() == 1) {
+rw.println("NO");
+continue;
+}
+long x, cur;
+cy:
+for (int j = 1; j <= s.length() / 2; ++j) {
+x = Long.parseLong(s.substring(0, j));
+cur = x + 1;
+int c = j;
+while (c < s.length()) {
+String p = String.valueOf(cur);
+cur += 1;
+if (s.startsWith(p, c)) {
+c += p.length();
+} else {
+continue cy;
+}
+}
+rw.println("YES" + " " + x);
+continue main;
+}
+rw.println("NO");
+}
+
+}
+
+private RW rw;
+private String FILE_NAME = "file";
+
+public static void main(String[] args) {
+new Main().run();
+}
+
+private void run() {
+rw = new RW(FILE_NAME + ".in", FILE_NAME + ".out");
+solve();
+rw.close();
+}
+
+private class RW {
+private StringTokenizer st;
+private PrintWriter out;
+private BufferedReader br;
+private boolean eof;
+
+RW(String inputFile, String outputFile) {
+br = new BufferedReader(new InputStreamReader(System.in));
+out = new PrintWriter(new OutputStreamWriter(System.out));
+
+File f = new File(inputFile);
+if (f.exists() && f.canRead()) {
+try {
+br = new BufferedReader(new FileReader(inputFile));
+out = new PrintWriter(new FileWriter(outputFile));
+} catch (IOException e) {
+e.printStackTrace();
+}
+}
+}
+
+private String nextLine() {
+String s = "";
+try {
+s = br.readLine();
+} catch (IOException e) {
+e.printStackTrace();
+}
+return s;
+}
+
+private String next() {
+while (st == null || !st.hasMoreTokens()) {
+try {
+st = new StringTokenizer(br.readLine());
+} catch (IOException e) {
+eof = true;
+return "-1";
+}
+}
+return st.nextToken();
+}
+
+private long nextLong() {
+return Long.parseLong(next());
+}
+
+private int nextInt() {
+return Integer.parseInt(next());
+}
+
+private void println() {
+out.println();
+}
+
+private void println(Object o) {
+out.println(o);
+}
+
+private void print(Object o) {
+out.print(o);
+}
+
+private void close() {
+try {
+br.close();
+} catch (IOException e) {
+e.printStackTrace();
+}
+out.close();
+}
+}
+}
+
+5) Closest Numbers
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
+        int[] dat = new int[n];
+        for(int i = 0; i < n; i++) {
+            dat[i] = in.nextInt();
+        }
+        Arrays.sort(dat);
+        int minDiff = Integer.MAX_VALUE;
+        String out = "";
+        for(int i = 0; i < n - 1; i++) {
+            if(dat[i + 1] - dat[i] <= minDiff) {
+                if(dat[i + 1] - dat[i] == minDiff) {
+                    out += " " + dat[i] + " " + dat[i + 1];
+                } else {
+                    out = dat[i] + " " + dat[i + 1];
+                }
+                minDiff = dat[i + 1] - dat[i];
+            }
+        }
+        System.out.println(out);
+    }
+}
+
+6) Tower Breakers
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+    
+    private static int numPrimeFactors(int n) {
+        int answer = 0;
+        for (int i=2; i<=n; i++) {
+            if (n%i == 0) {
+                answer++;
+                n /= i;
+                i = 1;
+            }
+        }
+        return answer;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int T = sc.nextInt();
+        for (int t=0; t<T; t++) {
+            int n = sc.nextInt();
+            int m = sc.nextInt();
+            if (m == 1) {
+                System.out.println(2);
+                continue;
+            }
+            if (n%2 == 0) {
+                System.out.println(2);
+            } else {
+                System.out.println(1);
+            }
+            
+        }
+        
+    }
+}
+
+7) Minimum Absolute Difference in an Array
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
+        int[] a = new int[n];
+        for(int a_i=0; a_i < n; a_i++){
+            a[a_i] = in.nextInt();
+        }
+        Arrays.sort(a);
+        int minimum=999999999;
+        for(int i = 1; i  <  (a.length - 1); i++){
+         int temp = Math.abs(a[i+1] - a[i]);
+         if (temp  <  minimum)
+            minimum = temp;
+      }
+        // your code goes here
+        System.out.println(minimum);
+    }
+}
+
+8) Caesar Cipher
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        int len = s.nextInt(); s.nextLine();
+        String str = s.nextLine();
+        int shift = s.nextInt();
+        
+        char sarr[] = str.toCharArray();
+        for (int i=0; i<sarr.length; i++) {
+            sarr[i] = cryptIt(sarr[i], shift);
+        }
+        System.out.println(new String(sarr));
+    }
+    
+    public static char cryptIt(char c, int shift) {
+        if (!Character.isAlphabetic(c)) return c;
+        char base = 'A';
+        if (c >= 'a') base = 'a';
+        return (char)(((c - base + shift) % 26) + base);
+    }
+}

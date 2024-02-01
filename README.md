@@ -44,6 +44,7 @@
 | 1 | [Week 1](https://github.com/BEASTgg/6thsem/blob/main/CSE%20(IOT)/HACKER%20RANK%20ASSIGNMENT/Week%201/1.txt) |
 | 2 | [Week 2](https://github.com/BEASTgg/6thsem/blob/main/CSE%20(IOT)/HACKER%20RANK%20ASSIGNMENT/Week%202/2.txt) |
 | 3 | [Week 3](https://github.com/BEASTgg/6thsem/blob/main/CSE%20(IOT)/HACKER%20RANK%20ASSIGNMENT/Week%203/3.txt) |
+| 3 | [Week 4](https://github.com/BEASTgg/6thsem/blob/main/CSE%20(IOT)/HACKER%20RANK%20ASSIGNMENT/Week%204/4.txt) |
 
 ### [Compiler Design](https://drive.google.com/file/d/1ofnt_xslwujyfRRg2jTv0JlD66j5Ebdx/view?usp=sharing):
 
@@ -71,6 +72,7 @@ Thanks to [@PixMusicax](https://github.com/PixMusicaX) for CSE(IOT) Assignments 
 | 1 | [Week 1](https://github.com/BEASTgg/6thsem/blob/main/CSE%20AIML/HACKER%20RANK%20ASSIGNMENT/Week%201/1.txt) |
 | 2 | [Week 2](https://github.com/BEASTgg/6thsem/blob/main/CSE%20AIML/HACKER%20RANK%20ASSIGNMENT/Week%202/2.txt) |
 | 3 | [Week 3](https://github.com/BEASTgg/6thsem/blob/main/CSE%20AIML/HACKER%20RANK%20ASSIGNMENT/Week%203/3.txt) |
+| 4 | [Week 4](https://github.com/BEASTgg/6thsem/blob/main/CSE%20AIML/HACKER%20RANK%20ASSIGNMENT/Week%204/4.txt) |
 
 ### [Compiler Design](https://drive.google.com/file/d/1ofnt_xslwujyfRRg2jTv0JlD66j5Ebdx/view?usp=sharing):
 

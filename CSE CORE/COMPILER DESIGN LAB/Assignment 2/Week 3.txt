@@ -71,7 +71,7 @@ double evaluateExpression(char expression[MAX_EXPRESSION_LENGTH]) {
             }
         } else {
             i++;
-            operatorCount = 0; // Reset operator count if non-operator character is encountered
+            operatorCount = 0;
         }
     }
 

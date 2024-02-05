@@ -13,13 +13,10 @@ double evaluateExpression(char expression[MAX_EXPRESSION_LENGTH]);
 
 int main() {
     char expression[MAX_EXPRESSION_LENGTH];
-
     printf("Enter an arithmetic expression: ");
     fgets(expression, MAX_EXPRESSION_LENGTH, stdin);
-
     double result = evaluateExpression(expression);
     printf("Result: %lf\n", result);
-
     return 0;
 }
 
@@ -29,9 +26,7 @@ double evaluateExpression(char expression[MAX_EXPRESSION_LENGTH]) {
     char operatorr;
     int i = 0;
     int operatorCount = 0;
-
     sscanf(expression, "%lf", &result);
-
     while (expression[i] != '\0') {
         if (expression[i] == '+' || expression[i] == '-' || expression[i] == '*' || expression[i] == '/') {
             operatorCount++;
@@ -41,9 +36,7 @@ double evaluateExpression(char expression[MAX_EXPRESSION_LENGTH]) {
             }
             operatorr = expression[i];
             i++;
-
             sscanf(expression + i, "%lf", &number);
-
             switch (operatorr) {
                 case '+':
                     result += number;
@@ -65,7 +58,6 @@ double evaluateExpression(char expression[MAX_EXPRESSION_LENGTH]) {
                 default:
                     break;
             }
-
             while (isdigit(expression[i]) || expression[i] == '.') {
                 i++;
             }
@@ -74,7 +66,6 @@ double evaluateExpression(char expression[MAX_EXPRESSION_LENGTH]) {
             operatorCount = 0; // Reset operator count if non-operator character is encountered
         }
     }
-
     return result;
 }
 

@@ -88,9 +88,13 @@ Code -
  
 %%
 [aeiouAEIOU] {vow_count++;}
+
 [a-zA-Z] {const_count++;}
+
 %%
+
 int yywrap(){}
+
 int main()
 {
     printf("Enter the string of vowels and consonants:");

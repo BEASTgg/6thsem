@@ -52,7 +52,7 @@
 | No. | Assignment |
 | --- | --- |
 | 1 | [Week 1](https://github.com/BEASTgg/6thsem/tree/main/CSE%20(IOT)/COMPILER%20DESIGN%20LAB/Week1) |
-| 2 | [Week 2](main/CSE%20(IOT)/COMPILER%20DESIGN%20LAB/Week2) |
+| 2 | [Week 2](main/CSE (IOT)/COMPILER DESIGN LAB/Week2) |
 
 ### Computer Networks:
 

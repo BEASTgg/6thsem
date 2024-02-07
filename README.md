@@ -32,7 +32,7 @@
 | No. | Assignment |
 | --- | --- |
 | 1 | [Assignment 1](https://github.com/BEASTgg/6thsem/tree/main/CSE%20CORE/COMPUTER%20NETWORK%20LAB/Assignment%201) |
-| 2 | [Assignment 2](https://github.com/BEASTgg/6thsem/blob/main/CSE%20CORE/COMPUTER%20NETWORK%20LAB/Assignment%202/2.txt) |
+| 2 | [Assignment 2](https://github.com/BEASTgg/6thsem/blob/main/CSE%20CORE/COMPUTER%20NETWORK%20LAB/Assignment%202) |
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

@@ -23,7 +23,6 @@
 
 | No. | Assignment |
 | --- | --- |
-| . | [QUESTION PAPER](https://drive.google.com/file/d/1ofnt_xslwujyfRRg2jTv0JlD66j5Ebdx/view?usp=sharing) |
 | 1 | [Assignment 1](https://github.com/BEASTgg/6thsem/blob/main/CSE%20CORE/COMPILER%20DESIGN%20LAB/Assignment%201/Week%201%20%26%20Week%202.txt) |
 | 2 | [Assignment 2](https://github.com/BEASTgg/6thsem/blob/main/CSE%20CORE/COMPILER%20DESIGN%20LAB/Assignment%202/Week%203.txt) |
 
@@ -56,13 +55,15 @@
 | 1 | [Week 1](https://github.com/BEASTgg/6thsem/tree/main/CSE%20(IOT)/COMPILER%20DESIGN%20LAB/Week1) |
 | 2 | [Week 2](https://github.com/PixMusicaX/6thsem/tree/main/CSE%20(IOT)/COMPILER%20DESIGN%20LAB/Week2) |
 
+*[Link](https://github.com/BEASTgg/6thsem/blob/main/CSE%20AIML/COMPILER%20DESIGN%20LAB/Compiler%20Design%20Full%20Assignment.pdf) to Full Assignment.
+
 ### Computer Networks:
 
 | No. | Assignment |
 | --- | --- |
 
 *[CISCO Packet Tracer Files](https://github.com/PixMusicaX/6thsem/tree/main/CSE%20(IOT)/COMPUTER%20NETWORK%20LAB/CISCO) by [@Rajat](https://github.com/RajatKundu853/Rajat-Kundu). <br>
-** [Link](https://www.filehorse.com/download-cisco-packet-tracer-32/27899/download/) to CISCO Packet Tracer Student Ver
+** [Link](https://www.filehorse.com/download-cisco-packet-tracer-32/27899/download/) to CISCO Packet Tracer Student Ver.
 
 Thanks to [@PixMusicax](https://github.com/PixMusicaX) for CSE(IOT) Contributions!
 

@@ -61,7 +61,10 @@
 | No. | Assignment |
 | --- | --- |
 
-Thanks to [@PixMusicax](https://github.com/PixMusicaX) for CSE(IOT) Assignments !
+*[CISCO Packet Tracer Files](https://github.com/PixMusicaX/6thsem/tree/main/CSE%20(IOT)/COMPUTER%20NETWORK%20LAB/CISCO) by [@Rajat](https://github.com/RajatKundu853/Rajat-Kundu)
+** [Link](https://www.filehorse.com/download-cisco-packet-tracer-32/27899/download/) to CISCO Packet Tracer Student Ver
+
+Thanks to [@PixMusicax](https://github.com/PixMusicaX) for CSE(IOT) Contributions!
 
 ---
 

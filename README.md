@@ -55,7 +55,7 @@
 | 1 | [Week 1](https://github.com/BEASTgg/6thsem/tree/main/CSE%20(IOT)/COMPILER%20DESIGN%20LAB/Week1) |
 | 2 | [Week 2](https://github.com/PixMusicaX/6thsem/tree/main/CSE%20(IOT)/COMPILER%20DESIGN%20LAB/Week2) |
 
-*[Link](https://github.com/BEASTgg/6thsem/blob/main/CSE%20AIML/COMPILER%20DESIGN%20LAB/Compiler%20Design%20Full%20Assignment.pdf) to Full Assignment.
+*[Link](https://github.com/BEASTgg/6thsem/blob/main/CSE%20(IOT)/COMPILER%20DESIGN%20LAB/Compiler%20Design%20Full%20Assignment.pdf) to Full Assignment.
 
 ### Computer Networks:
 

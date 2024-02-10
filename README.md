@@ -26,7 +26,7 @@
 | 1 | [Assignment 1](https://github.com/BEASTgg/6thsem/blob/main/CSE%20CORE/COMPILER%20DESIGN%20LAB/Assignment%201/Week%201%20%26%20Week%202.txt) |
 | 2 | [Assignment 2](https://github.com/BEASTgg/6thsem/blob/main/CSE%20CORE/COMPILER%20DESIGN%20LAB/Assignment%202/Week%203.txt) |
 
-*[Link](https://github.com/BEASTgg/6thsem/blob/main/CSE%20(IOT)/COMPILER%20DESIGN%20LAB/Compiler%20Design%20Full%20Assignment.pdf) to Full Assignment.
+*[Link](https://github.com/BEASTgg/6thsem/blob/main/CSE%20CORE/COMPILER%20DESIGN%20LAB/Full/Compiler%20Design%20Full%20Assignment.pdf) to Full Assignment.
 
 ### Computer Networks:
 

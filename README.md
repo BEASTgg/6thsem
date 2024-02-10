@@ -18,6 +18,7 @@
 | 2 | [Week 2](https://github.com/BEASTgg/6thsem/tree/main/CSE%20CORE/HACKER%20RANK%20ASSIGNMENT/Week%202) |
 | 3 | [Week 3](https://github.com/BEASTgg/6thsem/blob/main/CSE%20CORE/HACKER%20RANK%20ASSIGNMENT/Week%203) |
 | 4 | [Week 4](https://github.com/BEASTgg/6thsem/tree/main/CSE%20CORE/HACKER%20RANK%20ASSIGNMENT/Week%204) |
+| 5 | [Week 5](https://github.com/BEASTgg/6thsem/tree/main/CSE%20CORE/HACKER%20RANK%20ASSIGNMENT/Week%205) |
 
 ### [Compiler Design](https://drive.google.com/file/d/1ofnt_xslwujyfRRg2jTv0JlD66j5Ebdx/view?usp=sharing):
 

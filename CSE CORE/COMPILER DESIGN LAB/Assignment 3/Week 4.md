@@ -55,9 +55,9 @@ Total Character: 33, Total Word: 12, Line Count: 2
 
 #### Codes -
 
-```
-a)
+#### a)
 
+```
 %{
 #include<stdio.h>
 int positive_count = 0;
@@ -87,23 +87,28 @@ int yywrap()
     return 1;
 }
 
-b)
+```
 
+#### b)
+
+```
 
 ```
 
 #### Output -
 
-```
-a)
+#### a)
 
+```
 Enter the Integers: +5+2+6-2-5-7-2
 
 ^Z
 Number of Positive Numbers: 3
 Number of Negative Numbers: 4
+```
 
-b)
+#### b)
 
+```
 
 ```

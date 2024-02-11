@@ -56,11 +56,51 @@ Total Character: 33, Total Word: 12, Line Count: 2
 #### Codes -
 
 ```
+a)
+
+%{
+#include<stdio.h>
+int positive_count = 0;
+int negative_count = 0;
+%}
+
+positivedigit [+][0-9]+
+negativedigit [-][0-9]+
+
+%%
+
+{positivedigit} { positive_count++; }
+{negativedigit} { negative_count++; }
+
+%%
+
+int main()
+{
+    printf("\nEnter the Integers: ");
+    yylex();
+    printf("Number of Positive Numbers: %d\nNumber of Negative Numbers: %d\n", positive_count, negative_count);
+    return 0;
+}
+
+int yywrap()
+{
+    return 1;
+}
 
 ```
 
 #### Output -
 
 ```
+a)
+
+Enter the Integers: +5+2+6-2-5-7-2
+
+^Z
+Number of Positive Numbers: 3
+Number of Negative Numbers: 4
+
+b)
+
 
 ```

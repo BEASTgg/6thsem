@@ -8,20 +8,26 @@
 %{
 #include<stdio.h>
 #include<string.h>
-int char_count=0,word_count=0,line_count=0;
+int char_count = 0, word_count = 0, line_count = 0, space_count = 0;
 %}
+
 char [a-zA-Z]
 digit [0-9]
 CHAR .
 word ({char}|{digit})+
 WORD [^ \t\n,.:]+
 line [\n]
+
 %%
-{char} {char_count++;word_count++;}
-\. {char_count++;}
-{WORD} {word_count++; char_count+= strlen(yytext);}
-{line} {line_count++;}
+
+{char} { char_count++; word_count++; }
+\. { char_count++; }
+{WORD} { word_count++; char_count += strlen(yytext); }
+{line} { line_count++; }
+[ \t] { space_count++; }
+
 %%
+
 int main(int argc, char *argv[]) {
     if (argc != 2) {
         printf("Usage: %s <input_file>\n", argv[0]);
@@ -34,10 +40,11 @@ int main(int argc, char *argv[]) {
     }
     yyin = inputFile;
     yylex();
-    printf("\nTotal Character: %d, Total Word: %d, Line Count: %d\n", char_count, word_count, line_count);
+    printf("\nTotal Character: %d, Total Word: %d, Line Count: %d, Space Count: %d\n", char_count, word_count, line_count, space_count);
     fclose(inputFile);
     return 0;
 }
+
 int yywrap() {
     return 1;
 }
@@ -48,7 +55,7 @@ int yywrap() {
 ```
 a.exe file.txt
 
-Total Character: 33, Total Word: 12, Line Count: 2
+Total Character: 33, Total Word: 12, Line Count: 2, Space Count: 9
 ```
 
 ### Write a Lex Program to count no of: a) +ve and –ve integers b) +ve and –ve fractions.

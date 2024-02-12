@@ -1,5 +1,5 @@
 # Welcome to 6th Sem!
-## New Sem New Pain , Dont forget to take care of yourself through these pains! :pray:
+## New Sem New Pain :sob: , Dont forget to take care of yourself through these pains! :pray:
 
 ## ⭐ this 6 times?
 ### Disclaimer: The handler(s) of this repository will not be responsible for any wrong assignments and/or any other discrepencies caused on your end.

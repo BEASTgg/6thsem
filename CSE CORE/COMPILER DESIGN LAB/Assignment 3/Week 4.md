@@ -99,7 +99,27 @@ int yywrap()
 #### b)
 
 ```
-
+%{
+    int positivefractions=0; 
+    int negativefractions=0; 
+%}
+DIGIT [0-9] 
+%%
+\+?{DIGIT}*\.{DIGIT}+   positivefractions++; 
+-{DIGIT}*\.{DIGIT}+     negativefractions++; 
+. ;    
+%% 
+int main() 
+{
+	printf("\nEnter the Fractions: ");
+    yylex();
+    printf("\nNumber of Positive Fractions: %d\nNumber of Negative Fractions: %d\n", positivefractions, negativefractions); 
+    return 0; 
+}
+int yywrap()
+{
+    return 1;
+}
 ```
 
 #### Output -
@@ -117,5 +137,10 @@ Number of Negative Numbers: 4
 #### b)
 
 ```
+Enter the Fractions: +3.6+2.2-3.4-2.7
 
+^Z
+
+Number of Positive Fractions: 2
+Number of Negative Fractions: 2
 ```

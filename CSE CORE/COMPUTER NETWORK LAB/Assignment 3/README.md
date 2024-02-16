@@ -11,6 +11,8 @@ gcc UDPserver.c
 ./a.out
 ```
 
+#### Open another terminal and then run the client file by using the code -
+
 ```
 gcc UDPclient.c
 ```
@@ -26,6 +28,8 @@ gcc UDPserver2.c
 ```
 ./a.out
 ```
+
+#### Open another terminal and then run the client file by using the code -
 
 ```
 gcc UDPclient2.c

@@ -2,6 +2,8 @@
 
 ### Listen just open ubuntu and run those files by first typing the commands in following ways -
 
+#### For Qs 1 -
+
 ```
 gcc UDPserver.c
 ```
@@ -11,6 +13,22 @@ gcc UDPserver.c
 
 ```
 gcc UDPclient.c
+```
+```
+./a.out
+```
+
+#### For Qs 2 -
+
+```
+gcc UDPserver2.c
+```
+```
+./a.out
+```
+
+```
+gcc UDPclient2.c
 ```
 ```
 ./a.out

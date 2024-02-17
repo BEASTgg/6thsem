@@ -47,7 +47,7 @@
 
 ### Competitive Coding Assignments:
 
-#### HACKERRANK:
+#### [HACKERRANK](https://www.hackerrank.com/interview/preparation-kits/three-month-preparation-kit):
 
 | No. | Assignment |
 | --- | --- |
@@ -84,7 +84,7 @@ Thanks to [@PixMusicax](https://github.com/PixMusicaX) for CSE(IOT) Contribution
 
 ### Competitive Coding Assignments:
 
-#### HACKERRANK:
+#### [HACKERRANK](https://www.hackerrank.com/interview/preparation-kits/three-month-preparation-kit):
 
 | No. | Assignment |
 | --- | --- |

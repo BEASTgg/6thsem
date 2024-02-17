@@ -12,7 +12,7 @@
 
 ### Competitive Coding Assignments:
 
-#### HACKERRANK:
+#### [HACKERRANK](https://www.hackerrank.com/interview/preparation-kits/three-month-preparation-kit):
 
 | No. | Assignment |
 | --- | --- |

@@ -93,7 +93,7 @@ Thanks to [@PixMusicax](https://github.com/PixMusicaX) for CSE(IOT) Contribution
 | 3 | [Week 3](https://github.com/BEASTgg/6thsem/blob/main/CSE%20AIML/HACKER%20RANK%20ASSIGNMENT/Week%203/3.txt) |
 | 4 | [Week 4](https://github.com/BEASTgg/6thsem/blob/main/CSE%20AIML/HACKER%20RANK%20ASSIGNMENT/Week%204/4.txt) |
 | 5 | [Week 5](https://github.com/BEASTgg/6thsem/blob/main/CSE%20AIML/HACKER%20RANK%20ASSIGNMENT/Week%205/5.md) |
-| 6 | [Week 6]() |
+| 6 | [Week 6](https://github.com/BEASTgg/6thsem/blob/main/CSE%20AIML/HACKER%20RANK%20ASSIGNMENT/Week%206/6.md) |
 
 ### [Compiler Design](https://drive.google.com/file/d/1ofnt_xslwujyfRRg2jTv0JlD66j5Ebdx/view?usp=sharing):
 

@@ -30,6 +30,7 @@
 | 1 | [Assignment 1](https://github.com/BEASTgg/6thsem/blob/main/CSE%20CORE/COMPILER%20DESIGN%20LAB/Assignment%201/Week%201%20%26%20Week%202.txt) |
 | 2 | [Assignment 2](https://github.com/BEASTgg/6thsem/blob/main/CSE%20CORE/COMPILER%20DESIGN%20LAB/Assignment%202/Week%203.txt) |
 | 3 | [Assignment 3](https://github.com/BEASTgg/6thsem/blob/main/CSE%20CORE/COMPILER%20DESIGN%20LAB/Assignment%203/Week%204.md) |
+| 4 | [Assignment 4](https://github.com/BEASTgg/6thsem/blob/main/CSE%20CORE/COMPILER%20DESIGN%20LAB/Assignment%204/Week%205.md) |
 
 *[Link](https://github.com/BEASTgg/6thsem/blob/main/CSE%20CORE/COMPILER%20DESIGN%20LAB/Full/Compiler%20Design%20Full%20Assignment.pdf) to Full Assignment.
 

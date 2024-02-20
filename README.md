@@ -41,6 +41,7 @@
 | 1 | [Assignment 1](https://github.com/BEASTgg/6thsem/tree/main/CSE%20CORE/COMPUTER%20NETWORK%20LAB/Assignment%201) |
 | 2 | [Assignment 2](https://github.com/BEASTgg/6thsem/blob/main/CSE%20CORE/COMPUTER%20NETWORK%20LAB/Assignment%202) |
 | 3 | [Assignment 3](https://github.com/BEASTgg/6thsem/tree/main/CSE%20CORE/COMPUTER%20NETWORK%20LAB/Assignment%203) |
+| 4 | [Assignment 4}(https://github.com/BEASTgg/6thsem/tree/main/CSE%20CORE/COMPUTER%20NETWORK%20LAB/Assignment%204) |
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

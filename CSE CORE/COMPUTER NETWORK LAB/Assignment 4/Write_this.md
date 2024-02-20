@@ -345,7 +345,11 @@ fputs(recvline,stdout);
 Output -
 
 ```
-OUT OF LUCK CHIEF DO IT YOURSELF !
+./a.out 8080
+Enter the file name: a.txt
+
+Data from server:
+this is a test
 ```
 
 ### 4. Write a  TCP client server program where client will send an input file to the server. Inside that input file a sentence will be there. After receiving the file server reverse individual word of that sentence and write it into another file and reply back that new file to the client. Client will read the file and print the content of the file on the console.

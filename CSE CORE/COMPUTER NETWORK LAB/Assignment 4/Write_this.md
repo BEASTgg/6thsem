@@ -261,7 +261,12 @@ sendto(sockfd,filename,strlen(filename),0,(struct sockaddr*)&servaddr,sizeof(ser
 Output -
 
 ```
-OUT OF LUCK CHIEF DO IT YOURSELF !
+./a.out 8080
+Enter the file name: a.txt
+
+Data in the file is:
+
+this is a test
 ```
 
 ### 3. Write a TCP client server message where the client sends a file to the server. The server reads the content of the file and prints it on the console. 

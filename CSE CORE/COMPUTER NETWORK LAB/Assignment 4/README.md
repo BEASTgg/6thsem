@@ -7,7 +7,7 @@
 ### TUTORIAL LINK FOR CREATING A VIRTUAL MACHINE ON YOUR OWN PC ( UBUNTU ) :- [Click Here](https://www.youtube.com/watch?v=luhHDo4ei34)
 
 
-# OR
+## OR
 
 
 ### YOU CAN ALSO USE THIS ONLINE UBUNTU BUT FAIR WARNING ITS TOO SLOW AND CRASHES OR RELOADES SOMETHIMES , ANYWAYS THE LINK IS HERE :- [Click Here](https://www.onworks.net/programs/terminal-online)

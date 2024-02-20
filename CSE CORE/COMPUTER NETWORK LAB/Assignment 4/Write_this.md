@@ -189,7 +189,10 @@ exit(0);
 Output -
 
 ```
-OUT OF LUCK CHIEF DO IT YOURSELF !
+ Enter the data to be send: this is a test
+
+ Line send
+ Reverse of the given sentence is : tset a si siht
 ```
 
 ### 2. Write a UDP client server message where the client sends a file to the server. The server reads the content of the file and prints it on the console. 

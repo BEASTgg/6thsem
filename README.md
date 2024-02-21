@@ -49,24 +49,14 @@
 
 ### Competitive Coding Assignments:
 
-#### [HACKERRANK](https://www.hackerrank.com/interview/preparation-kits/three-month-preparation-kit):
-
-| No. | Assignment |
-| --- | --- |
-| 1 | [Week 1](https://github.com/BEASTgg/6thsem/blob/main/CSE%20(IOT)/HACKER%20RANK%20ASSIGNMENT/Week%201/1.txt) |
-| 2 | [Week 2](https://github.com/BEASTgg/6thsem/blob/main/CSE%20(IOT)/HACKER%20RANK%20ASSIGNMENT/Week%202/2.txt) |
-| 3 | [Week 3](https://github.com/BEASTgg/6thsem/blob/main/CSE%20(IOT)/HACKER%20RANK%20ASSIGNMENT/Week%203/3.txt) |
-| 3 | [Week 4](https://github.com/BEASTgg/6thsem/blob/main/CSE%20(IOT)/HACKER%20RANK%20ASSIGNMENT/Week%204/4.txt) |
-| 5 | [Week 5](https://github.com/BEASTgg/6thsem/blob/main/CSE%20(IOT)/HACKER%20RANK%20ASSIGNMENT/Week%205/5.md) |
-| 6 | [Week 6](https://github.com/BEASTgg/6thsem/blob/main/CSE%20(IOT)/HACKER%20RANK%20ASSIGNMENT/Week%206/6.md) |
-
 ### [Compiler Design](https://drive.google.com/file/d/1ofnt_xslwujyfRRg2jTv0JlD66j5Ebdx/view?usp=sharing):
 
 | No. | Assignment |
 | --- | --- |
 | 1 | [Week 1](https://github.com/BEASTgg/6thsem/tree/main/CSE%20(IOT)/COMPILER%20DESIGN%20LAB/Week1) |
 | 2 | [Week 2](https://github.com/PixMusicaX/6thsem/tree/main/CSE%20(IOT)/COMPILER%20DESIGN%20LAB/Week2) |
-| 2 | [Week 3](https://github.com/PixMusicaX/6thsem/tree/main/CSE%20(IOT)/COMPILER%20DESIGN%20LAB/Week3) |
+| 3 | [Week 3](https://github.com/PixMusicaX/6thsem/tree/main/CSE%20(IOT)/COMPILER%20DESIGN%20LAB/Week3) |
+| 4 | [Week 4](https://github.com/PixMusicaX/6thsem/tree/main/CSE%20(IOT)/COMPILER%20DESIGN%20LAB/Week4) |
 
 *[Link](https://github.com/BEASTgg/6thsem/blob/main/CSE%20(IOT)/COMPILER%20DESIGN%20LAB/Compiler%20Design%20Full%20Assignment.pdf) to Full Assignment.
 

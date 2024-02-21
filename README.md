@@ -47,8 +47,6 @@
 
 ## [CSE(IOT)](https://drive.google.com/file/d/1t3p1AXfcaK7lLmiY8Cs7lQ14NKkH8v2C/view?usp=sharing):
 
-### Competitive Coding Assignments:
-
 ### [Compiler Design](https://drive.google.com/file/d/1ofnt_xslwujyfRRg2jTv0JlD66j5Ebdx/view?usp=sharing):
 
 | No. | Assignment |

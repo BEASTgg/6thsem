@@ -62,6 +62,9 @@
 
 | No. | Assignment |
 | --- | --- |
+| 1 | [Assignment 1](https://github.com/PixMusicaX/6thsem/blob/main/CSE%20(IOT)/COMPUTER%20NETWORK%20LAB/Computer%20Networks%20Laboratory_Assignment-1.pdf) |
+| 2 | [Assignment 2](https://github.com/PixMusicaX/6thsem/blob/main/CSE%20(IOT)/COMPUTER%20NETWORK%20LAB/Computer%20Networks%20Laboratory_Assignment-2.pdf) |
+| 3 | [Assignment 3](https://github.com/PixMusicaX/6thsem/blob/main/CSE%20(IOT)/COMPUTER%20NETWORK%20LAB/Computer%20Networks%20Laboratory_Assignment-3.pdf) |
 
 *[CISCO Packet Tracer Files](https://github.com/PixMusicaX/6thsem/tree/main/CSE%20(IOT)/COMPUTER%20NETWORK%20LAB/CISCO) by [@Rajat](https://github.com/RajatKundu853/Rajat-Kundu). <br>
 **[Link](https://www.filehorse.com/download-cisco-packet-tracer-32/27899/download/) to CISCO Packet Tracer Student Ver.

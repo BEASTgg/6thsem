@@ -121,13 +121,13 @@ Thanks to [@PixMusicax](https://github.com/PixMusicaX) for CSE(IOT) Contribution
 
 | No. | Subject | Extras
 | --- | --- | --- |
-| 1 | [Compiler Design]() | [Books]() |
-| 2 | [Computer Networks]() | [Books]() |
-| 3 | [ESP - VI]() | []() |
-| 4 | [Finance And Accounting]() | [Books]() |
-| 5 | [Soft Computing]() | [Books]() |
-| 6 | [Data Analytics]() | [Books]() |
-| 7 | [SDP - VI]() | []() |
+| 1 | [Compiler Design](https://drive.google.com/drive/folders/1pwb7yMMgFBY3reTJG0dxaLQteQAwC_RG?usp=sharing) | [Books](https://drive.google.com/drive/folders/1m8K6bOmUbEWa9gStOHpommsfTNEnM2C7?usp=sharing) |
+| 2 | [Computer Networks](https://drive.google.com/drive/folders/1ejroqZpNXKI-JYoG_7Ve-NK8CguuFlri?usp=sharing) | [Books]() |
+| 3 | [ESP - VI](https://drive.google.com/drive/folders/1tMFfKB35khxn7_cJFRcoyn1mXi1bv9Nz?usp=sharing) | []() |
+| 4 | [Finance And Accounting](https://drive.google.com/drive/folders/1ktjO9SKdBGAGq89hChvJL7rMCDuYTVxM?usp=sharing) | [Books](https://drive.google.com/drive/folders/1tgpxnYokuGy251KF495NBJJIA1QbqUgu?usp=sharing) |
+| 5 | [Soft Computing](https://drive.google.com/drive/folders/1HRIXBaYvTmvsXcpaRC1On_Sd5UfM3SCL?usp=sharing) | [Books](https://drive.google.com/drive/folders/1tj6-Rw9P2m6pCDVOXbU_eQfQNJ7YRHi4?usp=sharing) |
+| 6 | [Data Analytics](https://drive.google.com/drive/folders/1X2BhI1OXuhG-zxS_u4jR5H3iYY4VSXwn?usp=sharing) | [Books]() |
+| 7 | [SDP - VI](https://drive.google.com/drive/folders/1pXLo_67LLfVtiSvptjI7pdkwQvoDTXLZ?usp=sharing) | []() |
 
 ### CSE IOT :
 

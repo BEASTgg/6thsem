@@ -82,3 +82,63 @@ Enter a sentence:
 I like to swim, and my brother likes to play soccer.
 It is a Compound Sentence
 ```
+
+## 3) Write a lex program to take a user input and valided it , if it is integer calculate factorial or else send some message.
+
+### Code -
+
+```
+%{
+#include <stdio.h>
+#include <stdlib.h>
+
+int factorial(int n) {
+    if (n == 0 || n == 1)
+        return 1;
+    else
+        return n * factorial(n - 1);
+}
+
+int isValid = 1;
+%}
+
+DIGIT   [0-9]
+INTEGER {DIGIT}+
+%%
+{INTEGER} {
+    if (isValid) {
+        int num = atoi(yytext);
+        int fact = factorial(num);
+        printf("Factorial of %d is %d\n", num, fact);
+    }
+    else {
+        printf("Invalid input\n");
+    }
+    isValid = 1;
+}
+. {
+    if (isValid) {
+        printf("Invalid input\n");
+        isValid = 0;
+    }
+}
+%%
+
+int main() {
+    yylex();
+    return 0;
+}
+int yywrap() {
+    return 1;
+}
+```
+
+### Output -
+
+```
+8
+Factorial of 8 is 40320
+
+This is a text
+Invalid input
+```

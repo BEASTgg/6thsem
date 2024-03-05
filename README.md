@@ -21,7 +21,7 @@
 | 3 | [Week 3](https://github.com/BEASTgg/6thsem/blob/main/CSE%20CORE/HACKER%20RANK%20ASSIGNMENT/Week%203) |
 | 4 | [Week 4](https://github.com/BEASTgg/6thsem/tree/main/CSE%20CORE/HACKER%20RANK%20ASSIGNMENT/Week%204) |
 | 5 | [Week 5](https://github.com/BEASTgg/6thsem/tree/main/CSE%20CORE/HACKER%20RANK%20ASSIGNMENT/Week%205) |
-| 6 | [Week 6](https://github.com/BEASTgg/6thsem/tree/main/CSE%20CORE/HACKER%20RANK%20ASSIGNMENT/Week%206) |
+| 6️⃣ | [Week 6](https://github.com/BEASTgg/6thsem/tree/main/CSE%20CORE/HACKER%20RANK%20ASSIGNMENT/Week%206) |
 
 ### [Compiler Design](https://drive.google.com/file/d/1ofnt_xslwujyfRRg2jTv0JlD66j5Ebdx/view?usp=sharing):
 
@@ -56,6 +56,7 @@
 | 2 | [Week 2](https://github.com/PixMusicaX/6thsem/tree/main/CSE%20(IOT)/COMPILER%20DESIGN%20LAB/Week2) |
 | 3 | [Week 3](https://github.com/PixMusicaX/6thsem/tree/main/CSE%20(IOT)/COMPILER%20DESIGN%20LAB/Week3) |
 | 4 | [Week 4](https://github.com/PixMusicaX/6thsem/tree/main/CSE%20(IOT)/COMPILER%20DESIGN%20LAB/Week4) |
+| 5 | [Week 5](https://github.com/PixMusicaX/6thsem/tree/main/CSE%20(IOT)/COMPILER%20DESIGN%20LAB/Week5) |
 
 *[Link](https://github.com/BEASTgg/6thsem/blob/main/CSE%20(IOT)/COMPILER%20DESIGN%20LAB/Compiler%20Design%20Full%20Assignment.pdf) to Full Assignment.
 
@@ -87,7 +88,7 @@ Thanks to [@PixMusicax](https://github.com/PixMusicaX) for CSE(IOT) Contribution
 | 3 | [Week 3](https://github.com/BEASTgg/6thsem/blob/main/CSE%20AIML/HACKER%20RANK%20ASSIGNMENT/Week%203/3.txt) |
 | 4 | [Week 4](https://github.com/BEASTgg/6thsem/blob/main/CSE%20AIML/HACKER%20RANK%20ASSIGNMENT/Week%204/4.txt) |
 | 5 | [Week 5](https://github.com/BEASTgg/6thsem/blob/main/CSE%20AIML/HACKER%20RANK%20ASSIGNMENT/Week%205/5.md) |
-| 6 | [Week 6](https://github.com/BEASTgg/6thsem/blob/main/CSE%20AIML/HACKER%20RANK%20ASSIGNMENT/Week%206/6.md) |
+| 6️⃣ | [Week 6](https://github.com/BEASTgg/6thsem/blob/main/CSE%20AIML/HACKER%20RANK%20ASSIGNMENT/Week%206/6.md) |
 
 ### [Compiler Design](https://drive.google.com/file/d/1ofnt_xslwujyfRRg2jTv0JlD66j5Ebdx/view?usp=sharing):
 
@@ -115,7 +116,7 @@ Thanks to [@PixMusicax](https://github.com/PixMusicaX) for CSE(IOT) Contribution
 | 3 | [ESP - VI](https://drive.google.com/drive/folders/12FBjoauJ803-Nh8eOvNHQ1wUgepjBsUN?usp=sharing) | []() |
 | 4 | [Finance And Accounting](https://drive.google.com/drive/folders/1GTXdvZR0nLu1ht07IjQ3XqKBWHegyWlQ?usp=sharing) | [Books](https://drive.google.com/drive/folders/1PfxhBTbcpB7Ob2JYsyes3cDlTgxXWX2b?usp=sharing) |
 | 5 | [Soft Computing](https://drive.google.com/drive/folders/1lVNv_nmyWT6KNey7PNte-8746ey_ufC9?usp=sharing) | [Books](https://drive.google.com/drive/folders/1pgQEmmrwJWR3qysSG9ubf-Bs3tapE4KT?usp=sharing) |
-| 6 | [Data Analytics](https://drive.google.com/drive/folders/1pM_h2u7EqOeJlFK4lDwaXVWATRMS5rxx?usp=sharing) | [Books](https://drive.google.com/drive/folders/1DnRGgzaGdGKjh3oAJgjKd9WdNeMBTGhQ?usp=sharing) |
+| 6️⃣ | [Data Analytics](https://drive.google.com/drive/folders/1pM_h2u7EqOeJlFK4lDwaXVWATRMS5rxx?usp=sharing) | [Books](https://drive.google.com/drive/folders/1DnRGgzaGdGKjh3oAJgjKd9WdNeMBTGhQ?usp=sharing) |
 | 7 | [SDP - VI](https://drive.google.com/drive/folders/1ZMHkozxsfL1v2nTUQIPkNj2dGF3T4hrn?usp=sharing) | []() |
 
 ### CSE AIML :
@@ -127,7 +128,7 @@ Thanks to [@PixMusicax](https://github.com/PixMusicaX) for CSE(IOT) Contribution
 | 3 | [ESP - VI](https://drive.google.com/drive/folders/1tMFfKB35khxn7_cJFRcoyn1mXi1bv9Nz?usp=sharing) | []() |
 | 4 | [Finance And Accounting](https://drive.google.com/drive/folders/1ktjO9SKdBGAGq89hChvJL7rMCDuYTVxM?usp=sharing) | [Books](https://drive.google.com/drive/folders/1tgpxnYokuGy251KF495NBJJIA1QbqUgu?usp=sharing) |
 | 5 | [Soft Computing](https://drive.google.com/drive/folders/1HRIXBaYvTmvsXcpaRC1On_Sd5UfM3SCL?usp=sharing) | [Books](https://drive.google.com/drive/folders/1tj6-Rw9P2m6pCDVOXbU_eQfQNJ7YRHi4?usp=sharing) |
-| 6 | [Data Analytics](https://drive.google.com/drive/folders/1X2BhI1OXuhG-zxS_u4jR5H3iYY4VSXwn?usp=sharing) | [Books]() |
+| 6️⃣ | [Data Analytics](https://drive.google.com/drive/folders/1X2BhI1OXuhG-zxS_u4jR5H3iYY4VSXwn?usp=sharing) | [Books]() |
 | 7 | [SDP - VI](https://drive.google.com/drive/folders/1pXLo_67LLfVtiSvptjI7pdkwQvoDTXLZ?usp=sharing) | []() |
 
 ### CSE IOT :
@@ -139,7 +140,7 @@ Thanks to [@PixMusicax](https://github.com/PixMusicaX) for CSE(IOT) Contribution
 | 3 | [ESP - VI](https://drive.google.com/drive/folders/1rXs-b3rzsNQPsU6-EvnKvNfHzW8stTcM?usp=sharing) | []() |
 | 4 | [Finance And Accounting](https://drive.google.com/drive/folders/1-GaeFwNvZHTbKVGO2wC3zJtKDUo2qLq2?usp=sharing) | [Books](https://drive.google.com/drive/folders/1tSrT23toSesSOLQyAxCwFY3MdBVKxkWS?usp=sharing) |
 | 5 | [Embedded Systems](https://drive.google.com/drive/folders/1YV5xiJcpBGBs5OeUtn1ZCv7VWWav9Brc?usp=sharing) | [Books](https://drive.google.com/drive/folders/1zXgSm7fLBQrn-X4JSTg73OBjSimy1zx0?usp=sharing) |
-| 6 | [Blockchain Technology](https://drive.google.com/drive/folders/1N6q-XfLqP2rbRkTvX-tBoEtZPxkyT_0Q?usp=sharing) | [Books](https://drive.google.com/drive/folders/1NwdBJUP9NtEqWmYoE_vI5uud18HlSu5u?usp=sharing) |
+| 6️⃣ | [Blockchain Technology](https://drive.google.com/drive/folders/1N6q-XfLqP2rbRkTvX-tBoEtZPxkyT_0Q?usp=sharing) | [Books](https://drive.google.com/drive/folders/1NwdBJUP9NtEqWmYoE_vI5uud18HlSu5u?usp=sharing) |
 | 7 | [SDP - VI](https://drive.google.com/drive/folders/1tBElPEKORr6qjOO8Xf_J8V4bRZbVBfrQ?usp=sharing) | []() |
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -55,10 +55,10 @@
 | No. | Assignment |
 | --- | --- |
 | 1 | [Week 1](https://github.com/BEASTgg/6thsem/tree/main/CSE%20(IOT)/COMPILER%20DESIGN%20LAB/Week1) |
-| 2 | [Week 2](https://github.com/PixMusicaX/6thsem/tree/main/CSE%20(IOT)/COMPILER%20DESIGN%20LAB/Week2) |
-| 3 | [Week 3](https://github.com/PixMusicaX/6thsem/tree/main/CSE%20(IOT)/COMPILER%20DESIGN%20LAB/Week3) |
-| 4 | [Week 4](https://github.com/PixMusicaX/6thsem/tree/main/CSE%20(IOT)/COMPILER%20DESIGN%20LAB/Week4) |
-| 5 | [Week 5](https://github.com/PixMusicaX/6thsem/tree/main/CSE%20(IOT)/COMPILER%20DESIGN%20LAB/Week5) |
+| 2 | [Week 2](https://github.com/BEASTgg/6thsem/tree/main/CSE%20(IOT)/COMPILER%20DESIGN%20LAB/Week2) |
+| 3 | [Week 3](https://github.com/BEASTgg/6thsem/tree/main/CSE%20(IOT)/COMPILER%20DESIGN%20LAB/Week3) |
+| 4 | [Week 4](https://github.com/BEASTgg/6thsem/tree/main/CSE%20(IOT)/COMPILER%20DESIGN%20LAB/Week4) |
+| 5 | [Week 5](https://github.com/BEASTgg/6thsem/tree/main/CSE%20(IOT)/COMPILER%20DESIGN%20LAB/Week5) |
 
 *[Link](https://github.com/BEASTgg/6thsem/blob/main/CSE%20(IOT)/COMPILER%20DESIGN%20LAB/Compiler%20Design%20Full%20Assignment.pdf) to Full Assignment.
 
@@ -66,9 +66,9 @@
 
 | No. | Assignment |
 | --- | --- |
-| 1 | [Assignment 1](https://github.com/PixMusicaX/6thsem/blob/main/CSE%20(IOT)/COMPUTER%20NETWORK%20LAB/Computer%20Networks%20Laboratory_Assignment-1.pdf) |
-| 2 | [Assignment 2](https://github.com/PixMusicaX/6thsem/blob/main/CSE%20(IOT)/COMPUTER%20NETWORK%20LAB/Computer%20Networks%20Laboratory_Assignment-2.pdf) |
-| 3 | [Assignment 3](https://github.com/PixMusicaX/6thsem/blob/main/CSE%20(IOT)/COMPUTER%20NETWORK%20LAB/Computer%20Networks%20Laboratory_Assignment-3.pdf) |
+| 1 | [Assignment 1](https://github.com/BEASTgg/6thsem/blob/main/CSE%20(IOT)/COMPUTER%20NETWORK%20LAB/Computer%20Networks%20Laboratory_Assignment-1.pdf) |
+| 2 | [Assignment 2](https://github.com/BEASTgg/6thsem/blob/main/CSE%20(IOT)/COMPUTER%20NETWORK%20LAB/Computer%20Networks%20Laboratory_Assignment-2.pdf) |
+| 3 | [Assignment 3](https://github.com/BEASTgg/6thsem/blob/main/CSE%20(IOT)/COMPUTER%20NETWORK%20LAB/Computer%20Networks%20Laboratory_Assignment-3.pdf) |
 
 *[CISCO Packet Tracer Files](https://github.com/PixMusicaX/6thsem/tree/main/CSE%20(IOT)/COMPUTER%20NETWORK%20LAB/CISCO) by [@Rajat](https://github.com/RajatKundu853/Rajat-Kundu). <br>
 **[Link](https://www.filehorse.com/download-cisco-packet-tracer-32/27899/download/) to CISCO Packet Tracer Student Ver.

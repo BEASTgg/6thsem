@@ -9,8 +9,6 @@
 
 ## [CSE(CORE)](https://drive.google.com/file/d/1TJuCKXUKw_iQDzJiN_kJm9904Wh2tLmT/view?usp=sharing):
 
-### I Dont know which assignments were given for CSE CORE , If u know please mail it to me on my mail address and i will do it gladly !
-
 ### Competitive Coding Assignments:
 
 #### [HACKERRANK](https://www.hackerrank.com/interview/preparation-kits/three-month-preparation-kit):

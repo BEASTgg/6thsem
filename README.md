@@ -33,7 +33,7 @@
 | 5 | [Assignment 5](https://github.com/BEASTgg/6thsem/blob/main/CSE%20CORE/COMPILER%20DESIGN%20LAB/Assignment%205/Week%206.md) |
 | 6️⃣ | [Assignment 6](https://github.com/BEASTgg/6thsem/blob/main/CSE%20CORE/COMPILER%20DESIGN%20LAB/Assignment%206/Week%207.md) |
 | 7 | [Assignment 7](https://github.com/BEASTgg/6thsem/blob/main/CSE%20CORE/COMPILER%20DESIGN%20LAB/Assignment%207/Week%208.md) |
-| 8 | [Assignment 8](https://github.com/BEASTgg/6thsem/blob/main/CSE%20CORE/COMPILER%20DESIGN%20LAB/Assignment%208/Week%209.md) |
+| 8 | [Assignment 8](https://github.com/BEASTgg/6thsem/blob/main/CSE%20CORE/COMPILER%20DESIGN%20LAB/Assignment%208/week%209.md) |
 | 9 | [Assignment 9](https://github.com/BEASTgg/6thsem/blob/main/CSE%20CORE/COMPILER%20DESIGN%20LAB/Assignment%209/Week%2010.md) |
 | 10 | [Assignment 10](https://github.com/BEASTgg/6thsem/blob/main/CSE%20CORE/COMPILER%20DESIGN%20LAB/Assignment%2010/Week%2011.md) |
 | 11 | [Assignment 11](https://github.com/BEASTgg/6thsem/blob/main/CSE%20CORE/COMPILER%20DESIGN%20LAB/Assignment%2011/Week%2012.md) |

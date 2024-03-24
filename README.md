@@ -34,7 +34,7 @@
 | 6️⃣ | [Assignment 6](https://github.com/BEASTgg/6thsem/blob/main/CSE%20CORE/COMPILER%20DESIGN%20LAB/Assignment%206/Week%207.md) |
 | 7 | [Assignment 7](https://github.com/BEASTgg/6thsem/blob/main/CSE%20CORE/COMPILER%20DESIGN%20LAB/Assignment%207/Week%208.md) |
 
-*[Link](https://github.com/BEASTgg/6thsem/blob/main/CSE%20CORE/COMPILER%20DESIGN%20LAB/Full/Compiler%20Design%20Full%20Assignment.pdf) to Full Assignment.
+*[Link](https://github.com/BEASTgg/6thsem/blob/main/CSE%20CORE/COMPILER%20DESIGN%20LAB/Full/COMPILER%20DESIGN%20LAB%20MANUAL%20WITH%20ANSWEARS.pdf) to Full Assignment.
 
 ### Computer Networks:
 

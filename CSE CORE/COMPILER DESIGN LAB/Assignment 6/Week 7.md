@@ -52,8 +52,48 @@ Number of identifiers: 2
 
 ### Codes -
 
+### Lex -
+
+```
+%{
+#include“y.tab.h”
+%}
+%%
+[0-9]+{returnDIGIT;}
+[a-zA-Z][a-zA-Z0-9_]*{returnID;}
+\n{returnNL;}
+.{returnyytext[0];}
+%%
 ```
 
+### Yaac -
+
+```
+%tokenNUMBERIDNL
+%left‘+’‘-‘
+%left‘*’‘/’
+%%
+stmt:expNL{printf(“ValidExpression”);exit(0);}
+;
+exp:exp‘+’exp
+|exp‘-‘exp
+|exp‘*’exp
+|exp‘/’exp
+|‘(‘exp‘)’
+|ID
+|NUMBER
+;
+%%
+intyyerror(char*msg)
+{
+printf(“InvalidExpression\n”);
+exit(0);
+}
+main()
+{
+printf(“Entertheexpression\n”);
+yyparse();
+}
 ```
 
 ### Output -

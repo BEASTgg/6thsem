@@ -86,6 +86,8 @@ Thanks to [@PixMusicax](https://github.com/PixMusicaX) for CSE(IOT) Contribution
 
 ## [CSE(AIML)](https://drive.google.com/file/d/1yrGbihfzZ1eUXk3-XJKtphce8ZtIf2oB/view?usp=sharing):
 
+### THE [CSE(AIML)]() REPO HAS BEEN [DISCONTINUED]() ! THIS REPO WILL [NO LONGER POST ANY ASSIGNMENTS]() REGARDING CSE(AIML) !
+
 ### Competitive Coding Assignments:
 
 #### [HACKERRANK](https://www.hackerrank.com/interview/preparation-kits/three-month-preparation-kit):

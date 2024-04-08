@@ -41,7 +41,7 @@ struct sockaddr_in servaddr,cliaddr;
 	  sin_port a TCP/IP port number.
 	  sin_addr an IP address.
 	*/
-listenfd=socket(AF_INET,SOCK_STREAM,0); //This line creates a TCP socket using the socket() system call. 
+listenfd=socket(AF_INET,SOCK_STREAM,0);
 	/*
 	int socket(int family,int type,int proto);
 	--> family specifies the protocol family (AF_INET for Internet, PF_INET for TCP/IP).
@@ -56,13 +56,13 @@ bzero(&servaddr,sizeof(servaddr));
 	It takes two arguments, the first is a pointer to the buffer and the second is the size of the buffer. 
 	Thus, this line initializes serv_addr to zeros.
 	*/
-servaddr.sin_family=AF_INET; //sin_family is set to AF_INET to indicate the use of IPv4.
-servaddr.sin_port=htons(SERV_PORT); //sin_port is set to the port number defined by SERV_PORT. 
+servaddr.sin_family=AF_INET;
+servaddr.sin_port=htons(SERV_PORT);
 	/*sin_addr.s_addr is set to htons(SERV_PORT), which means the server will accept connections from any IP address assigned to the host.
 	instead of simply copying the port number to this field, it is necessary to convert this to network byte order using the function htons() 
 	which converts a port number in host byte order to a port number in network byte order.
 	*/
-bind(listenfd,(struct sockaddr*)&servaddr,sizeof(servaddr)); //This line binds the socket to the server address specified by servaddr 
+bind(listenfd,(struct sockaddr*)&servaddr,sizeof(servaddr));
 	/*
 	The bind() system call is used to assign an address to an existing socket.
 	int bind( int sockfd, const struct sockaddr *myaddr, int addrlen);

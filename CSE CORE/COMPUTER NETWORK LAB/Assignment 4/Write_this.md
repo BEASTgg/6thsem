@@ -7,20 +7,17 @@ Server Code -
 #include<stdio.h>
 #include<stdlib.h>
 #include<unistd.h>
-#include<sys/socket.h> //includes a number of definitions of structures needed for sockets.
-#include<netinet/in.h> //contains constants and structures needed for internet domain addresses.
-#include<sys/types.h> //contains definitions of a number of data types used in system calls. These types are used in the next two include files.
+#include<sys/socket.h>
+#include<netinet/in.h>
+#include<sys/types.h>
 #define MAXLINE 20
 #define SERV_PORT 5777
 main(int argc,char *argv)
 {
 int i,j; //i and j are loop counters.
 ssize_t n; //n stores the number of bytes received from the client.
-char line[MAXLINE],revline[MAXLINE]; //line is an array to store the received data from the client.
-									//revline is an array to store the reversed data before sending it back to the client.
+char line[MAXLINE],revline[MAXLINE]; //line is an array to store the received data from the client.	
 int listenfd,connfd,clilen; //listenfd is the socket file descriptor for the listening socket.
-							//connfd is the socket file descriptor for the connected socket.
-							//clilen stores the size of the client address structure.
 struct sockaddr_in servaddr,cliaddr; //servaddr and cliaddr are structures to hold the server and client socket addresses, respectively.
 	/*
 	Generic socket address :--
@@ -45,8 +42,6 @@ struct sockaddr_in servaddr,cliaddr; //servaddr and cliaddr are structures to ho
 	  sin_addr an IP address.
 	*/
 listenfd=socket(AF_INET,SOCK_STREAM,0); //This line creates a TCP socket using the socket() system call. 
-										//It specifies that the socket will use the IPv4 address family (AF_INET) and 
-										//stream service (SOCK_STREAM), corresponding to TCP protocol.
 	/*
 	int socket(int family,int type,int proto);
 	--> family specifies the protocol family (AF_INET for Internet, PF_INET for TCP/IP).
@@ -68,8 +63,6 @@ servaddr.sin_port=htons(SERV_PORT); //sin_port is set to the port number defined
 	which converts a port number in host byte order to a port number in network byte order.
 	*/
 bind(listenfd,(struct sockaddr*)&servaddr,sizeof(servaddr)); //This line binds the socket to the server address specified by servaddr 
-															//using the bind() system call. 
-															//It associates the socket with a specific address and port number.
 	/*
 	The bind() system call is used to assign an address to an existing socket.
 	int bind( int sockfd, const struct sockaddr *myaddr, int addrlen);
@@ -82,8 +75,6 @@ bind(listenfd,(struct sockaddr*)&servaddr,sizeof(servaddr)); //This line binds t
 	--> bind( mysock, (struct sockaddr*) &myaddr, sizeof(myaddr) );
 	*/
 listen(listenfd,1); //Accepts a connection request
-					//This line makes the server listen for incoming connections on the socket listenfd. 
-					//The second argument (1) specifies the maximum number of pending connections in the listen queue.
 for( ; ; )
 {
 clilen=sizeof(cliaddr); //stores the size of the address of the client. This is needed for the accept system call.
@@ -119,9 +110,9 @@ Client Code -
 #include<stdio.h>
 #include<stdlib.h>
 #include<unistd.h>
-#include<sys/socket.h> //includes a number of definitions of structures needed for sockets.
-#include<netinet/in.h> //contains constants and structures needed for internet domain addresses.
-#include<sys/types.h> //contains definitions of a number of data types used in system calls. These types are used in the next two include files.
+#include<sys/socket.h>
+#include<netinet/in.h>
+#include<sys/types.h>
 #define MAXLINE 20
 #define SERV_PORT 5777
 main(int argc,char *argv)
@@ -168,14 +159,11 @@ bzero(&servaddr,sizeof(servaddr));
 	*/
 servaddr.sin_family=AF_INET; //sin_family is set to AF_INET to indicate the use of IPv4.
 servaddr.sin_port=ntohs(SERV_PORT); //sin_port is set to the port number defined by SERV_PORT. 
-									//ntohs() function converts the port number to host byte order.
-connect(sockfd,(struct sockaddr*)&servaddr,sizeof(servaddr)); //Establish queue for connection request. 
-															 //It initiates the three-way handshake to establish the TCP connection.
+connect(sockfd,(struct sockaddr*)&servaddr,sizeof(servaddr)); //Establish queue for connection request. \
 printf("\n Enter the data to be send: ");
 while(fgets(sendline,MAXLINE,stdin)!=NULL)
 {
 write(sockfd,sendline,strlen(sendline)); //write() function sends the data in sendline to the server.
-										 //It then prints a message confirming that the line has been sent.
 printf("\n Line send");
 read(sockfd,revline,MAXLINE);  //This line reads data from the server into revline and prints it as the reverse of the sentence sent by the client.
 printf("\n Reverse of the given sentence is : %s",revline);
@@ -203,9 +191,9 @@ Server Code -
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
-#include<sys/types.h> //contains definitions of a number of data types used in system calls. These types are used in the next two include files.
-#include<sys/socket.h> //includes a number of definitions of structures needed for sockets.
-#include<netinet/in.h> //contains constants and structures needed for internet domain addresses.
+#include<sys/types.h>
+#include<sys/socket.h>
+#include<netinet/in.h>
 #define SERV_PORT 6349
 main(int argc,char **argv)
 {
@@ -236,9 +224,9 @@ Client Code -
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
-#include<sys/types.h> //contains definitions of a number of data types used in system calls. These types are used in the next two include files.
-#include<sys/socket.h> //includes a number of definitions of structures needed for sockets.
-#include<netinet/in.h> //contains constants and structures needed for internet domain addresses.
+#include<sys/types.h>
+#include<sys/socket.h>
+#include<netinet/in.h>
 #include<unistd.h>
 #define SERV_PORT 6349
 main(int argc,char **argv)
@@ -251,7 +239,6 @@ bzero(&servaddr,sizeof(servaddr));
 servaddr.sin_family=AF_INET;
 servaddr.sin_port=htons(SERV_PORT);
 inet_pton(AF_INET,argv[1],&servaddr.sin_addr);
-// The inet_pton() function converts an address in its standard text presentation form into its numeric binary form.
 printf("Enter the file name: ");
 scanf("%s",filename);
 sendto(sockfd,filename,strlen(filename),0,(struct sockaddr*)&servaddr,sizeof(servaddr));

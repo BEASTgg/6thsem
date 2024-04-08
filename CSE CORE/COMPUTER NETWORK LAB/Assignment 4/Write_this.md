@@ -14,11 +14,11 @@ Server Code -
 #define SERV_PORT 5777
 main(int argc,char *argv)
 {
-int i,j; //i and j are loop counters.
+int i,j;
 ssize_t n; //n stores the number of bytes received from the client.
-char line[MAXLINE],revline[MAXLINE]; //line is an array to store the received data from the client.	
+char line[MAXLINE],revline[MAXLINE];
 int listenfd,connfd,clilen; //listenfd is the socket file descriptor for the listening socket.
-struct sockaddr_in servaddr,cliaddr; //servaddr and cliaddr are structures to hold the server and client socket addresses, respectively.
+struct sockaddr_in servaddr,cliaddr;
 	/*
 	Generic socket address :--
 	struct sockaddr {

@@ -19,77 +19,21 @@ ssize_t n;
 char line[MAXLINE],revline[MAXLINE];
 int listenfd,connfd,clilen;
 struct sockaddr_in servaddr,cliaddr;
-	/*
-	Generic socket address :--
-	struct sockaddr {
-		uint8_t 		sa_len;
-		sa_family_t 	sa_family;
-		char 		sa_data[14];
-	};
-	--> sa_family specifies the address type.
-	--> sa_data specifies the address value.
-
-	struct sockaddr_in {
-		uint8_t 		sin_len;
-		sa_family_t 	sin_family;
-		in_port_t 		sin_port;
-		struct in_addr 	sin_addr;
-		char 		sin_zero[8];
-	};
-	A special kind of sockaddr structure.
-	All values stored in a sockaddr_in must be in network byte order.
-	  sin_port a TCP/IP port number.
-	  sin_addr an IP address.
-	*/
 listenfd=socket(AF_INET,SOCK_STREAM,0);
-	/*
-	int socket(int family,int type,int proto);
-	--> family specifies the protocol family (AF_INET for Internet, PF_INET for TCP/IP).
-	--> type specifies the type of service (SOCK_STREAM, SOCK_DGRAM).
-	--> protocol specifies the specific protocol (IPPROTO_TCP, IPPROTO_UDP, usually 0, which means the default).
-	[ The socket() system call returns a socket descriptor (small integer) or -1 on error.
-	socket() allocates resources needed for a communication endpoint - but it does not deal with endpoint addressing. ]
-	*/
 bzero(&servaddr,sizeof(servaddr));
-/*
-	The function bzero() sets all values in a buffer to zero. 
-	It takes two arguments, the first is a pointer to the buffer and the second is the size of the buffer. 
-	Thus, this line initializes serv_addr to zeros.
-	*/
 servaddr.sin_family=AF_INET;
 servaddr.sin_port=htons(SERV_PORT);
-	/*sin_addr.s_addr is set to htons(SERV_PORT), which means the server will accept connections from any IP address assigned to the host.
-	instead of simply copying the port number to this field, it is necessary to convert this to network byte order using the function htons() 
-	which converts a port number in host byte order to a port number in network byte order.
-	*/
 bind(listenfd,(struct sockaddr*)&servaddr,sizeof(servaddr));
-	/*
-	The bind() system call is used to assign an address to an existing socket.
-	int bind( int sockfd, const struct sockaddr *myaddr, int addrlen);
-	--> sockid: integer, socket descriptor; addrport: struct sockaddr, the (IP) address and port of the machine; 
-	--> for TCP/IP server, internet address is usually set to INADDR_ANY, i.e., chooses any incoming interface
-	-->size: the size (in bytes) of the addrport structure; status: upon failure -1 is returned
-	-->bind returns 0 if successful or -1 on error.
-	--> calling bind() assigns the address specified by the sockaddr structure to the socket descriptor.
-	--> You can give bind() a sockaddr_in structure:
-	--> bind( mysock, (struct sockaddr*) &myaddr, sizeof(myaddr) );
-	*/
-listen(listenfd,1); //Accepts a connection request
+listen(listenfd,1);
 for( ; ; )
 {
-clilen=sizeof(cliaddr); //stores the size of the address of the client. This is needed for the accept system call.
-connfd=accept(listenfd,(struct sockaddr*)&cliaddr,&clilen); //Initiates a connection to a remote host
+clilen=sizeof(cliaddr);
+connfd=accept(listenfd,(struct sockaddr*)&cliaddr,&clilen);
 printf("Connect to client.\n");
-
-/*This loop runs indefinitely and accepts incoming connection requests using the accept() system call. 
-It initializes a new socket descriptor connfd for each accepted connection. 
-The server then communicates with the client using this new socket descriptor.*/
 
 while(1)
 {
 if((n=read(connfd,line,MAXLINE))==0)
-/* This inner loop reads data from the client into the line buffer using the read() system call. 
-If read() returns 0, it means the client has closed the connection, so the server breaks out of the loop.*/
 break;
 printf("Data Received.\n");
 printf("Data: %s",line);
@@ -120,52 +64,17 @@ main(int argc,char *argv)
 char sendline[MAXLINE],revline[MAXLINE];
 int sockfd;
 struct sockaddr_in servaddr;
-	/*
-	Generic socket address :--
-	struct sockaddr {
-		uint8_t 		sa_len;
-		sa_family_t 	sa_family;
-		char 		sa_data[14];
-	};
-	--> sa_family specifies the address type.
-	--> sa_data specifies the address value.
-
-	struct sockaddr_in {
-		uint8_t 		sin_len;
-		sa_family_t 	sin_family;
-		in_port_t 		sin_port;
-		struct in_addr 	sin_addr;
-		char 		sin_zero[8];
-	};
-	A special kind of sockaddr structure.
-	All values stored in a sockaddr_in must be in network byte order.
-	  sin_port a TCP/IP port number.
-	  sin_addr an IP address.
-	*/
 sockfd=socket(AF_INET,SOCK_STREAM,0);
-	/*
-	int socket(int family,int type,int proto);
-	--> family specifies the protocol family (AF_INET for Internet, PF_INET for TCP/IP).
-	--> type specifies the type of service (SOCK_STREAM, SOCK_DGRAM).
-	--> protocol specifies the specific protocol (usually 0, which means the default).
-	[ The socket() system call returns a socket descriptor (small integer) or -1 on error.
-	socket() allocates resources needed for a communication endpoint - but it does not deal with endpoint addressing. ]
-	*/
 bzero(&servaddr,sizeof(servaddr));
-	/*
-	The function bzero() sets all values in a buffer to zero. 
-	It takes two arguments, the first is a pointer to the buffer and the second is the size of the buffer. 
-	Thus, this line initializes serv_addr to zeros.
-	*/
-servaddr.sin_family=AF_INET; //sin_family is set to AF_INET to indicate the use of IPv4.
-servaddr.sin_port=ntohs(SERV_PORT); //sin_port is set to the port number defined by SERV_PORT. 
-connect(sockfd,(struct sockaddr*)&servaddr,sizeof(servaddr)); //Establish queue for connection request. \
+servaddr.sin_family=AF_INET;
+servaddr.sin_port=ntohs(SERV_PORT);
+connect(sockfd,(struct sockaddr*)&servaddr,sizeof(servaddr));
 printf("\n Enter the data to be send: ");
 while(fgets(sendline,MAXLINE,stdin)!=NULL)
 {
-write(sockfd,sendline,strlen(sendline)); //write() function sends the data in sendline to the server.
+write(sockfd,sendline,strlen(sendline));
 printf("\n Line send");
-read(sockfd,revline,MAXLINE);  //This line reads data from the server into revline and prints it as the reverse of the sentence sent by the client.
+read(sockfd,revline,MAXLINE);
 printf("\n Reverse of the given sentence is : %s",revline);
 printf("\n");
 printf("\n Enter the data to be send: ");
@@ -208,7 +117,6 @@ servaddr.sin_port=htons(SERV_PORT);
 bind(sockfd,(struct sockaddr*)&servaddr,sizeof(servaddr));
 clilen=sizeof(cliaddr);
 recvfrom(sockfd,filename,80,0,(struct sockaddr*)&cliaddr,&clilen);
-//The recvfrom socket function receives data on a socket with descriptor s and stores it in a buffer.
 printf("\nData in the file is: \n ");
 fp=fopen(filename,"r");
 while(fgets(recvline,80,fp)!=NULL)
@@ -219,7 +127,6 @@ fclose(fp);
 }
 ```
 Client Code -
-
 ```
 #include<stdio.h>
 #include<string.h>

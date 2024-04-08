@@ -15,9 +15,9 @@ Server Code -
 main(int argc,char *argv)
 {
 int i,j;
-ssize_t n; //n stores the number of bytes received from the client.
+ssize_t n;
 char line[MAXLINE],revline[MAXLINE];
-int listenfd,connfd,clilen; //listenfd is the socket file descriptor for the listening socket.
+int listenfd,connfd,clilen;
 struct sockaddr_in servaddr,cliaddr;
 	/*
 	Generic socket address :--

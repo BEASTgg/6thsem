@@ -130,6 +130,8 @@ Thanks to [@PixMusicax](https://github.com/PixMusicaX) for CSE(IOT) Contribution
 | 6️⃣ | [Data Analytics](https://drive.google.com/drive/folders/1pM_h2u7EqOeJlFK4lDwaXVWATRMS5rxx?usp=sharing) | [Books](https://drive.google.com/drive/folders/1DnRGgzaGdGKjh3oAJgjKd9WdNeMBTGhQ?usp=sharing) |
 | 7 | [SDP - VI](https://drive.google.com/drive/folders/1ZMHkozxsfL1v2nTUQIPkNj2dGF3T4hrn?usp=sharing) | []() |
 
+### Suggestions : [Click Here](https://drive.google.com/drive/u/3/folders/1TRqEs18SqfTlUXAMCGv8RxtVF-P1uZCR)
+
 ### CSE AIML :
 
 | No. | Subject | Extras

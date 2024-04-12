@@ -160,6 +160,8 @@ Thanks to [@PixMusicax](https://github.com/PixMusicaX) for CSE(IOT) Contribution
 
 ## Question Papers : [Click Here](https://drive.google.com/drive/folders/1JAOuZ0my-8RPNgta7oLBeFwZnHZhadVJ?usp=sharing)
 
+## Prev Years all qs : [Click Here](https://drive.google.com/file/d/1hCiHUUTfSPSCkwzUOW5yAxJw8tjwTUAk/view?usp=sharing)
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## For Youtube Videos : [Click Here](https://drive.google.com/file/d/1rlhgigA6dR4UaMJLO5TFmMNoWFfUYPmS/view?usp=sharing)

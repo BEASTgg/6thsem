@@ -173,5 +173,5 @@ Thanks to [@PixMusicax](https://github.com/PixMusicaX) for CSE(IOT) Contribution
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <p align="left">
-  <img src="https://github.com/PixMusicaX/PiXMusicaX/blob/main/Okabe%20Rintaro%20Typing%20on%20the%20computer%20ASMR.gif" />  <img src="https://github.com/PixMusicaX/Sem6IoT/assets/129383302/9847ab9d-3ae2-490a-89fe-351c23a45f02" width="400" height="225"/>
+  <img src="https://github.com/BEASTgg/gifs/blob/main/Okabe%20Rintaro%20Typing%20on%20the%20computer%20ASMR.gif" />
   </p>

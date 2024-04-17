@@ -1,3 +1,5 @@
+### 7Thsem repo has been created , you can [click here](https://github.com/BEASTgg/7thsem) to access it ... Keep it stared for your own ease of assignments in 7th sem + u wont forget doing it!
+
 # Welcome to 6️⃣th Sem!
 
 ## ⭐ this 6️⃣ times?
